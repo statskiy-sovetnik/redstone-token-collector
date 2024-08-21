@@ -1,0 +1,268 @@
+{
+  "42161": [
+    {
+      "address": "0x32eb7902d4134bf98a28b963d26de779af92a212",
+      "name": "Dopex Rebate Token",
+      "decimals": 18,
+      "symbol": "RDPX"
+    },
+    {
+      "address": "0x9e758b8a98a42d612b3d38b66a22074dc03d7370",
+      "name": "Symbiosis",
+      "decimals": 18,
+      "symbol": "SIS"
+    },
+    {
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "name": "Mai Stablecoin",
+      "decimals": 18,
+      "symbol": "MAI"
+    },
+    {
+      "address": "0x55ff62567f09906a85183b866df84bf599a4bf70",
+      "name": "Kromatika",
+      "decimals": 18,
+      "symbol": "KROM"
+    },
+    {
+      "address": "0x088cd8f5ef3652623c22d48b1605dcfe860cd704",
+      "name": "VelaToken",
+      "decimals": 18,
+      "symbol": "VELA"
+    },
+    {
+      "address": "0xda51015b73ce11f77a115bb1b8a7049e02ddecf0",
+      "name": "Neutra Token",
+      "decimals": 18,
+      "symbol": "NEU"
+    },
+    {
+      "address": "0x123389c2f0e9194d9ba98c21e63c375b67614108",
+      "name": "EthereumMax",
+      "decimals": 18,
+      "symbol": "EMAX"
+    },
+    {
+      "address": "0xcab86f6fb6d1c2cbeeb97854a0c023446a075fe3",
+      "name": "deBridge Ether",
+      "decimals": 18,
+      "symbol": "deETH"
+    },
+    {
+      "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+      "name": "Elk",
+      "decimals": 18,
+      "symbol": "ELK"
+    },
+    {
+      "address": "0x75c9bc761d88f70156daf83aa010e84680baf131",
+      "name": "Saddle DAO",
+      "decimals": 18,
+      "symbol": "SDL"
+    },
+    {
+      "address": "0xc74fe4c715510ec2f8c61d70d397b32043f55abe",
+      "name": "Mycelium",
+      "decimals": 18,
+      "symbol": "MYC"
+    },
+    {
+      "address": "0x93c15cd7de26f07265f0272e0b831c5d7fab174f",
+      "name": "Liquid",
+      "decimals": 18,
+      "symbol": "LIQD"
+    },
+    {
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+      "name": "Hop",
+      "decimals": 18,
+      "symbol": "HOP"
+    },
+    {
+      "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "decimals": 18,
+      "symbol": "WstETH"
+    },
+    {
+      "address": "0xd74f5255d557944cf7dd0e45ff521520002d5748",
+      "name": "Sperax USD",
+      "decimals": 18,
+      "symbol": "USDs"
+    },
+    {
+      "address": "0x15a808ed3846d25e88ae868de79f1bcb1ac382b5",
+      "name": "Metavault DAO",
+      "decimals": 9,
+      "symbol": "MVD"
+    },
+    {
+      "address": "0x417a1afd44250314bffb11ff68e989775e990ab6",
+      "name": "Volta Protocol Token",
+      "decimals": 18,
+      "symbol": "VOLTA"
+    },
+    {
+      "address": "0xde903e2712288a1da82942dddf2c20529565ac30",
+      "name": "Swapr",
+      "decimals": 18,
+      "symbol": "SWPR"
+    },
+    {
+      "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "symbol": "WETH"
+    },
+    {
+      "address": "0x0f61b24272af65eacf6adfe507028957698e032f",
+      "name": "Zippie",
+      "decimals": 18,
+      "symbol": "ZIPT"
+    },
+    {
+      "address": "0xd5ebd23d5eb968c2efba2b03f27ee61718609a71",
+      "name": "Unbound",
+      "decimals": 18,
+      "symbol": "UNB"
+    },
+    {
+      "address": "0x739ca6d71365a08f584c8fc4e1029045fa8abc4b",
+      "name": "Wrapped sOHM",
+      "decimals": 18,
+      "symbol": "wsOHM"
+    },
+    {
+      "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
+      "name": "deBridge USD Coin",
+      "decimals": 6,
+      "symbol": "deUSDC"
+    },
+    {
+      "address": "0xcfe3fbc98d80f7eca0bc76cd1f406a19dd425896",
+      "name": "Scalara NFT Index",
+      "decimals": 18,
+      "symbol": "NFTI"
+    },
+    {
+      "address": "0xfa5ed56a203466cbbc2430a43c66b9d8723528e7",
+      "name": "EURA (previously agEUR)",
+      "decimals": 18,
+      "symbol": "EURA"
+    },
+    {
+      "address": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
+      "name": "Magic Internet Money",
+      "decimals": 18,
+      "symbol": "MIM"
+    },
+    {
+      "address": "0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba",
+      "name": "Land",
+      "decimals": 18,
+      "symbol": "LAND"
+    },
+    {
+      "address": "0x99f40b01ba9c469193b360f72740e416b17ac332",
+      "name": "MATH Token",
+      "decimals": 18,
+      "symbol": "MATH"
+    },
+    {
+      "address": "0x3642c0680329ae3e103e2b5ab29ddfed4d43cbe5",
+      "name": "Plenny",
+      "decimals": 18,
+      "symbol": "PL2"
+    },
+    {
+      "address": "0xc628534100180582e43271448098cb2c185795bd",
+      "name": "Flashstake",
+      "decimals": 18,
+      "symbol": "FLASH"
+    },
+    {
+      "address": "0xd77b108d4f6cefaa0cae9506a934e825becca46e",
+      "name": "WINR",
+      "decimals": 18,
+      "symbol": "WINR"
+    },
+    {
+      "address": "0xeb8e93a0c7504bffd8a8ffa56cd754c63aaebfe8",
+      "name": "DAI+",
+      "decimals": 18,
+      "symbol": "DAI+"
+    },
+    {
+      "address": "0x3082cc23568ea640225c2467653db90e9250aaa0",
+      "name": "Radiant",
+      "decimals": 18,
+      "symbol": "RDNT"
+    },
+    {
+      "address": "0x9ed7e4b1bff939ad473da5e7a218c771d1569456",
+      "name": "Reunit Token",
+      "decimals": 6,
+      "symbol": "REUNI"
+    },
+    {
+      "address": "0x965f298e4ade51c0b0bb24e3369deb6c7d5b3951",
+      "name": "AutoDCA",
+      "decimals": 18,
+      "symbol": "DCA"
+    },
+    {
+      "address": "0xf0a562bee81f674e0c5486c9716060f4cd5ef944",
+      "name": "Unbound Dollar",
+      "decimals": 18,
+      "symbol": "UND"
+    },
+    {
+      "address": "0x57f12fe6a4e5fe819eec699fadf9db2d06606bb4",
+      "name": "Neptune Mutual",
+      "decimals": 18,
+      "symbol": "NPM"
+    },
+    {
+      "address": "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c",
+      "name": "PancakeSwap Token",
+      "decimals": 18,
+      "symbol": "Cake"
+    },
+    {
+      "address": "0xc19669a405067927865b40ea045a2baabbbe57f5",
+      "name": "STAR",
+      "decimals": 18,
+      "symbol": "STAR"
+    },
+    {
+      "address": "0x9c4ec768c28520b50860ea7a15bd7213a9ff58bf",
+      "name": "Compound USDC",
+      "decimals": 6,
+      "symbol": "cUSDCv3"
+    },
+    {
+      "address": "0x58b9cb810a68a7f3e1e4f8cb45d1b9b3c79705e8",
+      "name": "Connext",
+      "decimals": 18,
+      "symbol": "NEXT"
+    },
+    {
+      "address": "0x323665443cef804a3b5206103304bd4872ea4253",
+      "name": "USDV",
+      "decimals": 6,
+      "symbol": "USDV"
+    },
+    {
+      "address": "0x17a8541b82bf67e10b0874284b4ae66858cb1fd5",
+      "name": "Possum",
+      "decimals": 18,
+      "symbol": "PSM"
+    },
+    {
+      "address": "0x7cfadfd5645b50be87d546f42699d863648251ad",
+      "name": "Static Aave Arbitrum USDCn",
+      "decimals": 6,
+      "symbol": "stataArbUSDCn"
+    }
+  ]
+}

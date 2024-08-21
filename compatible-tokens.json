@@ -1,0 +1,244 @@
+{
+  "42161": [
+    {
+      "address": "0xb766039cc6db368759c1e56b79affe831d0cc507",
+      "name": "Rocket Pool Protocol",
+      "decimals": 18,
+      "symbol": "RPL"
+    },
+    {
+      "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+      "name": "Rocket Pool ETH",
+      "decimals": 18,
+      "symbol": "rETH"
+    },
+    {
+      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "name": "USD Coin",
+      "decimals": 6,
+      "symbol": "USDC"
+    },
+    {
+      "address": "0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+      "name": "JoeToken",
+      "decimals": 18,
+      "symbol": "JOE"
+    },
+    {
+      "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "name": "Pendle",
+      "decimals": 18,
+      "symbol": "PENDLE"
+    },
+    {
+      "address": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+      "name": "Graph Token",
+      "decimals": 18,
+      "symbol": "GRT"
+    },
+    {
+      "address": "0x079504b86d38119f859c4194765029f692b7b7aa",
+      "name": "Lyra Token",
+      "decimals": 18,
+      "symbol": "LYRA"
+    },
+    {
+      "address": "0x64343594ab9b56e99087bfa6f2335db24c2d1f17",
+      "name": "Vesta Stable",
+      "decimals": 18,
+      "symbol": "VST"
+    },
+    {
+      "address": "0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55",
+      "name": "Dopex Governance Token",
+      "decimals": 18,
+      "symbol": "DPX"
+    },
+    {
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "name": "Frax",
+      "decimals": 18,
+      "symbol": "FRAX"
+    },
+    {
+      "address": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
+      "name": "StargateToken",
+      "decimals": 18,
+      "symbol": "STG"
+    },
+    {
+      "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+      "name": "Uniswap",
+      "decimals": 18,
+      "symbol": "UNI"
+    },
+    {
+      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "name": "Tether USD",
+      "decimals": 6,
+      "symbol": "USDT"
+    },
+    {
+      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "name": "USD Coin (Arb1)",
+      "decimals": 6,
+      "symbol": "USDC.e"
+    },
+    {
+      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "symbol": "WBTC"
+    },
+    {
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "symbol": "DAI"
+    },
+    {
+      "address": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
+      "name": "Spell Token",
+      "decimals": 18,
+      "symbol": "SPELL"
+    },
+    {
+      "address": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+      "name": "Lido DAO Token",
+      "decimals": 18,
+      "symbol": "LDO"
+    },
+    {
+      "address": "0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65",
+      "name": "dHedge DAO Token",
+      "decimals": 18,
+      "symbol": "DHT"
+    },
+    {
+      "address": "0xc3ae0333f0f34aa734d5493276223d95b8f9cb37",
+      "name": "DXdao",
+      "decimals": 18,
+      "symbol": "DXD"
+    },
+    {
+      "address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+      "name": "GMX",
+      "decimals": 18,
+      "symbol": "GMX"
+    },
+    {
+      "address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
+      "name": "Gnosis Token",
+      "decimals": 18,
+      "symbol": "GNO"
+    },
+    {
+      "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+      "name": "ChainLink Token",
+      "decimals": 18,
+      "symbol": "LINK"
+    },
+    {
+      "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
+      "name": "MCDEX Token",
+      "decimals": 18,
+      "symbol": "MCB"
+    },
+    {
+      "address": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879",
+      "name": "Maker",
+      "decimals": 18,
+      "symbol": "MKR"
+    },
+    {
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Ether",
+      "decimals": 18,
+      "symbol": "ETH"
+    },
+    {
+      "address": "0xbfa641051ba0a0ad1b0acf549a89536a0d76472e",
+      "name": "Badger",
+      "decimals": 18,
+      "symbol": "BADGER"
+    },
+    {
+      "address": "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
+      "name": "Balancer",
+      "decimals": 18,
+      "symbol": "BAL"
+    },
+    {
+      "address": "0x3a8b787f78d775aecfeea15706d4221b40f345ab",
+      "name": "CelerToken",
+      "decimals": 18,
+      "symbol": "CELR"
+    },
+    {
+      "address": "0x51fc0f6660482ea73330e414efd7808811a57fa2",
+      "name": "Premia",
+      "decimals": 18,
+      "symbol": "PREMIA"
+    },
+    {
+      "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+      "name": "SushiToken",
+      "decimals": 18,
+      "symbol": "SUSHI"
+    },
+    {
+      "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+      "name": "USD+",
+      "decimals": 6,
+      "symbol": "USD+"
+    },
+    {
+      "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
+      "name": "Compound",
+      "decimals": 18,
+      "symbol": "COMP"
+    },
+    {
+      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+      "name": "Curve DAO Token",
+      "decimals": 18,
+      "symbol": "CRV"
+    },
+    {
+      "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "name": "Arbitrum",
+      "decimals": 18,
+      "symbol": "ARB"
+    },
+    {
+      "address": "0xb64e280e9d1b5dbec4accedb2257a87b400db149",
+      "name": "Level Token",
+      "decimals": 18,
+      "symbol": "LVL"
+    },
+    {
+      "address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+      "name": "Curve.Fi USD Stablecoin",
+      "decimals": 18,
+      "symbol": "crvUSD"
+    },
+    {
+      "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+      "name": "Wrapped eETH",
+      "decimals": 18,
+      "symbol": "weETH"
+    },
+    {
+      "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "name": "Renzo Restaked ETH",
+      "decimals": 18,
+      "symbol": "ezETH"
+    },
+    {
+      "address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+      "name": "Gho Token",
+      "decimals": 18,
+      "symbol": "GHO"
+    }
+  ]
+}
