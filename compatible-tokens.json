@@ -1,17 +1,6 @@
 {
+  "56": [],
   "42161": [
-    {
-      "address": "0xb766039cc6db368759c1e56b79affe831d0cc507",
-      "name": "Rocket Pool Protocol",
-      "decimals": 18,
-      "symbol": "RPL"
-    },
-    {
-      "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
-      "name": "Rocket Pool ETH",
-      "decimals": 18,
-      "symbol": "rETH"
-    },
     {
       "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
       "name": "USD Coin",
@@ -239,6 +228,249 @@
       "name": "Gho Token",
       "decimals": 18,
       "symbol": "GHO"
+    },
+    {
+      "address": "0x9d2F299715D94d8A7E6F5eaa8E654E8c74a988A7",
+      "symbol": "FXS",
+      "name": "Frax Share",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x178412e79c25968a32e89b11f63B33F733770c2A",
+      "symbol": "frxETH",
+      "name": "Frax Ether",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x95aB45875cFFdba1E5f451B950bC2E42c0053f39",
+      "symbol": "sfrxETH",
+      "name": "Staked Frax Ether",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "symbol": "MAGIC",
+      "name": "MAGIC",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028",
+      "symbol": "OHM",
+      "name": "Olympus",
+      "decimals": 9,
+      "chainId": 42161
+    },
+    {
+      "address": "0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689",
+      "symbol": "DF",
+      "name": "dForce",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581",
+      "symbol": "DODO",
+      "name": "DODO bird",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x080F6AEd32Fc474DD5717105Dba5ea57268F46eb",
+      "symbol": "SYN",
+      "name": "Synapse",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x289ba1701C2F088cf0faf8B3705246331cB8A839",
+      "symbol": "LPT",
+      "name": "Livepeer Token",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
+      "symbol": "EURS",
+      "name": "STASIS EURS Token",
+      "decimals": 2,
+      "chainId": 42161
+    },
+    {
+      "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
+      "symbol": "wstETH",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b",
+      "symbol": "WOO",
+      "name": "Wootrade Network",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x18c11FD286C5EC11c3b683Caa813B77f5163A122",
+      "symbol": "GNS",
+      "name": "Gains Network",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8",
+      "symbol": "GRAIL",
+      "name": "Camelot token",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x51318B7D00db7ACc4026C88c3952B66278B6A67F",
+      "symbol": "PLS",
+      "name": "Plutus",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x4D15a3A2286D883AF0AA1B3f21367843FAc63E07",
+      "symbol": "TUSD",
+      "name": "TrueUSD",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x99C409E5f62E4bd2AC142f17caFb6810B8F0BAAE",
+      "symbol": "BIFI",
+      "name": "beefy.finance",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xe4DDDfe67E7164b0FE14E218d80dC4C08eDC01cB",
+      "symbol": "KNC",
+      "name": "Kyber Network Crystal v2",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b",
+      "symbol": "LUSD",
+      "name": "LUSD Stablecoin",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x6A7661795C374c0bFC635934efAddFf3A7Ee23b6",
+      "symbol": "DOLA",
+      "name": "Dola USD Stablecoin",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xfb9E5D956D889D91a82737B9bFCDaC1DCE3e1449",
+      "symbol": "LQTY",
+      "name": "LQTY",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x15b2fb8f08E4Ac1Ce019EADAe02eE92AeDF06851",
+      "symbol": "CHR",
+      "name": "CHRONOS",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x3DB4B7DA67dd5aF61Cb9b3C70501B1BdB24b2C22",
+      "symbol": "gmdUSDC",
+      "name": "gmdUSDC",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xa334884bF6b0A066d553D19e507315E839409e62",
+      "symbol": "ERN",
+      "name": "Ethos Reserve Note",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x27b58D226fe8f792730a795764945Cf146815AA7",
+      "symbol": "ALCX",
+      "name": "Alchemix",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x1509706a6c66CA549ff0cB464de88231DDBe213B",
+      "symbol": "AURA",
+      "name": "Aura",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xf7d4e7273E5015C96728A6b02f31C505eE184603",
+      "symbol": "osETH",
+      "name": "Staked ETH",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "symbol": "USDe",
+      "name": "USDe",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+      "symbol": "rsETH",
+      "name": "KelpDao Restaked ETH",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
+      "symbol": "USDM",
+      "name": "Mountain Protocol USD",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+      "symbol": "wUSDM",
+      "name": "Wrapped Mountain Protocol USD",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xadf5DD3E51bF28aB4F07e684eCF5d00691818790",
+      "symbol": "ICHI",
+      "name": "ICHI",
+      "decimals": 18,
+      "chainId": 42161
+    },
+    {
+      "address": "0xb766039cc6db368759c1e56b79affe831d0cc507",
+      "name": "Rocket Pool Protocol",
+      "decimals": 18,
+      "symbol": "RPL"
+    },
+    {
+      "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+      "name": "Rocket Pool ETH",
+      "decimals": 18,
+      "symbol": "rETH"
     }
   ]
 }

@@ -11,3 +11,17 @@ export enum Network {
   Bsc = 56,
   Polygon = 137
 }
+
+export type OdosToken = {
+  name: string;
+  symbol: string;
+  decimals: number;
+  assetId: string;
+  assetType: string;
+  protocolId: string;
+  isRebasing: boolean;
+};
+
+export type OdosTokenMap = {
+  [address: string]: OdosToken;
+};

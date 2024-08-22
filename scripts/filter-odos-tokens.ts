@@ -1,13 +1,14 @@
 import { promises as fs } from "fs";
-const PATH = "one-inch-token.json";
+const PATH = "odos-tokens.json";
 const RESULT_PATH = "compatible-tokens.json";
 const UNSUPPORTED_TOKENS_PATH = "unsupported-tokens.json";
 import hre from "hardhat";
 import { ethers } from "ethers";
 import { RedstoneDeployedAddresses, RPC } from './config';
-import { Network } from '../types';
+import { Network, OdosTokenMap, Token } from '../types';
 import abi from "../abi.json";
 import { filterTokenListWithRedstone } from './utils/filter-token-list-with-redstone';
+import { formatOdosTokens } from './utils/format-odos-tokens';
 
 
 /* 
@@ -17,17 +18,19 @@ import { filterTokenListWithRedstone } from './utils/filter-token-list-with-reds
  */
 
 async function main() {
-  const one_inch_tokens_file = JSON.parse(await fs.readFile(PATH, { encoding: "utf8" }));
+  const odos_tokens_file = JSON.parse(await fs.readFile(PATH, { encoding: "utf8" }));
   const compatible_tokens_file = JSON.parse(await fs.readFile(RESULT_PATH, { encoding: "utf8" }));
   const unsupported_tokens_file = JSON.parse(await fs.readFile(UNSUPPORTED_TOKENS_PATH, { encoding: "utf8" }));
   const chainId: Network = hre.network.config.chainId!;
   const provider = new ethers.providers.JsonRpcProvider(RPC[chainId]);
 
-  const tokens = one_inch_tokens_file[chainId];
+  const odos_tokens: OdosTokenMap = odos_tokens_file[chainId].tokenMap;
 
-  if (!tokens) {
-    throw new Error("No 1inch tokens in the config file");
+  if (!odos_tokens) {
+    throw new Error("No Odos tokens in the config file");
   }
+  
+  const tokens = formatOdosTokens(chainId, odos_tokens);
 
   /* 
     Initialize arrays
@@ -46,10 +49,8 @@ async function main() {
   //const RedstoneProvider = await ethers.getContractAt("RedstoneProviderMock", deployed_address);
   const RedstoneProvider = new ethers.Contract(deployed_address, abi.abi, provider);
 
-  console.log(RedstoneProvider);
-
   const res = await filterTokenListWithRedstone(
-    tokens, 
+    tokens,
     compatible_tokens,
     unsupported_tokens,
     RedstoneProvider

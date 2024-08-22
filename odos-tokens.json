@@ -1,0 +1,4958 @@
+{
+    "42161": {
+        "tokenMap": {
+            "0x0000000000000000000000000000000000000000": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "assetId": "eth",
+            "assetType": "eth",
+            "protocolId": "native",
+            "isRebasing": false
+            },
+            "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "assetId": "weth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A": {
+            "name": "Magic Internet Money",
+            "symbol": "MIM",
+            "decimals": 18,
+            "assetId": "mim",
+            "assetType": "usd",
+            "protocolId": "abracadabra",
+            "isRebasing": false
+            },
+            "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "assetId": "dai",
+            "assetType": "usd",
+            "protocolId": "maker-dao",
+            "isRebasing": false
+            },
+            "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F": {
+            "name": "Frax",
+            "symbol": "FRAX",
+            "decimals": 18,
+            "assetId": "frax",
+            "assetType": "usd",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x9d2F299715D94d8A7E6F5eaa8E654E8c74a988A7": {
+            "name": "Frax Share",
+            "symbol": "FXS",
+            "decimals": 18,
+            "assetId": "fxs",
+            "assetType": "fxs",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x178412e79c25968a32e89b11f63B33F733770c2A": {
+            "name": "Frax Ether",
+            "symbol": "frxETH",
+            "decimals": 18,
+            "assetId": "frxeth",
+            "assetType": "eth",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x95aB45875cFFdba1E5f451B950bC2E42c0053f39": {
+            "name": "Staked Frax Ether",
+            "symbol": "sfrxETH",
+            "decimals": 18,
+            "assetId": "sfrxeth",
+            "assetType": "eth",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "assetId": "usdt",
+            "assetType": "usd",
+            "protocolId": "tether",
+            "isRebasing": false
+            },
+            "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+            "name": "Bridged USDC",
+            "symbol": "USDC.e",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+            },
+            "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+            },
+            "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f": {
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "assetId": "wbtc",
+            "assetType": "btc",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0x2297aEbD383787A160DD0d9F71508148769342E3": {
+            "name": "Bitcoin",
+            "symbol": "BTC.b",
+            "decimals": 8,
+            "assetId": "btc",
+            "assetType": "btc",
+            "protocolId": "avax-bridge",
+            "isRebasing": false
+            },
+            "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4": {
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "decimals": 18,
+            "assetId": "link",
+            "assetType": "link",
+            "protocolId": "chainlink",
+            "isRebasing": false
+            },
+            "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a": {
+            "name": "GMX",
+            "symbol": "GMX",
+            "decimals": 18,
+            "assetId": "gmx",
+            "assetType": "gmx",
+            "protocolId": "gmx",
+            "isRebasing": false
+            },
+            "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978": {
+            "name": "Curve DAO Token",
+            "symbol": "CRV",
+            "decimals": 18,
+            "assetId": "crv",
+            "assetType": "crv",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5": {
+            "name": "Curve.Fi USD Stablecoin",
+            "symbol": "crvUSD",
+            "decimals": 18,
+            "assetId": "crvusd",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x7f90122BF0700F9E7e1F688fe926940E8839F353": {
+            "name": "Curve.fi USDC/USDT",
+            "symbol": "2CRV",
+            "decimals": 18,
+            "assetId": "2crv",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x30dF229cefa463e991e29D42DB0bae2e122B2AC7": {
+            "name": "Curve.fi Factory USD Metapool: MIM",
+            "symbol": "MIM3CRV-f",
+            "decimals": 18,
+            "assetId": "mim3crvf",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xDbcD16e622c95AcB2650b38eC799f76BFC557a0b": {
+            "name": "Curve.fi ETH/wstETH",
+            "symbol": "wstETHCRV",
+            "decimals": 18,
+            "assetId": "wstethcrv",
+            "assetType": "eth",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x59bF0545FCa0E5Ad48E13DA269faCD2E8C886Ba4": {
+            "name": "Curve.fi Factory Plain Pool: VST+FRAX",
+            "symbol": "VSTFRAX-f",
+            "decimals": 18,
+            "assetId": "vstfraxf",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xC9B8a3FDECB9D5b218d02555a8Baf332E5B740d5": {
+            "name": "Curve.fi Factory Plain Pool: FRAXBP",
+            "symbol": "FRAXBP-f",
+            "decimals": 18,
+            "assetId": "fraxbpf",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x2ce5Fd6f6F4a159987eac99FF5158B7B62189Acf": {
+            "name": "Curve.fi Factory USD Metapool: dForce",
+            "symbol": "USX2CRV3CRV-f",
+            "decimals": 18,
+            "assetId": "usx2crv3crvf",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF": {
+            "name": "Spell Token",
+            "symbol": "SPELL",
+            "decimals": 18,
+            "assetId": "spell",
+            "assetType": "spell",
+            "protocolId": "abracadabra",
+            "isRebasing": false
+            },
+            "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55": {
+            "name": "Dopex Governance Token",
+            "symbol": "DPX",
+            "decimals": 18,
+            "assetId": "dpx",
+            "assetType": "dpx",
+            "protocolId": "dopex",
+            "isRebasing": false
+            },
+            "0x539bdE0d7Dbd336b79148AA742883198BBF60342": {
+            "name": "MAGIC",
+            "symbol": "MAGIC",
+            "decimals": 18,
+            "assetId": "magic",
+            "assetType": "magic",
+            "protocolId": "treasure",
+            "isRebasing": false
+            },
+            "0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028": {
+            "name": "Olympus",
+            "symbol": "OHM",
+            "decimals": 9,
+            "assetId": "ohm",
+            "assetType": "ohm",
+            "protocolId": "olympus-dao",
+            "isRebasing": false
+            },
+            "0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1": {
+            "name": "Governance OHM",
+            "symbol": "gOHM",
+            "decimals": 18,
+            "assetId": "gohm",
+            "assetType": "ohm",
+            "protocolId": "olympus-dao",
+            "isRebasing": false
+            },
+            "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A": {
+            "name": "SushiToken",
+            "symbol": "SUSHI",
+            "decimals": 18,
+            "assetId": "sushi",
+            "assetType": "sushi",
+            "protocolId": "sushi",
+            "isRebasing": false
+            },
+            "0x155f0DD04424939368972f4e1838687d6a831151": {
+            "name": "ArbiDoge",
+            "symbol": "ADoge",
+            "decimals": 18,
+            "assetId": "adoge",
+            "assetType": "adoge",
+            "protocolId": "arbidoge",
+            "isRebasing": false
+            },
+            "0xA72159FC390f0E3C6D415e658264c7c4051E9b87": {
+            "name": "Tracer",
+            "symbol": "TCR",
+            "decimals": 18,
+            "assetId": "tcr",
+            "assetType": "tcr",
+            "protocolId": "mycelium",
+            "isRebasing": false
+            },
+            "0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8": {
+            "name": "Balancer",
+            "symbol": "BAL",
+            "decimals": 18,
+            "assetId": "bal",
+            "assetType": "bal",
+            "protocolId": "balancer",
+            "isRebasing": false
+            },
+            "0xa684cd057951541187f288294a1e1C2646aA2d24": {
+            "name": "Vesta",
+            "symbol": "VSTA",
+            "decimals": 18,
+            "assetId": "vsta",
+            "assetType": "vsta",
+            "protocolId": "vesta-finance",
+            "isRebasing": false
+            },
+            "0x64343594Ab9b56e99087BfA6F2335Db24c2d1F17": {
+            "name": "Vesta Stable",
+            "symbol": "VST",
+            "decimals": 18,
+            "assetId": "vst",
+            "assetType": "usd",
+            "protocolId": "vesta-finance",
+            "isRebasing": false
+            },
+            "0x9623063377AD1B27544C965cCd7342f7EA7e88C7": {
+            "name": "Graph Token",
+            "symbol": "GRT",
+            "decimals": 18,
+            "assetId": "grt",
+            "assetType": "grt",
+            "protocolId": "the-graph",
+            "isRebasing": false
+            },
+            "0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614": {
+            "name": "Graph Token (OLD)",
+            "symbol": "GRT (OLD)",
+            "decimals": 18,
+            "assetId": "grt",
+            "assetType": "grt-old",
+            "protocolId": "the-graph",
+            "isRebasing": false
+            },
+            "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0": {
+            "name": "Uniswap",
+            "symbol": "UNI",
+            "decimals": 18,
+            "assetId": "uni",
+            "assetType": "uni",
+            "protocolId": "uniswap",
+            "isRebasing": false
+            },
+            "0x6ab707Aca953eDAeFBc4fD23bA73294241490620": {
+            "name": "Aave Arbitrum USDT",
+            "symbol": "aArbUSDT",
+            "decimals": 6,
+            "assetId": "aave-usdt",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE": {
+            "name": "Aave Arbitrum DAI",
+            "symbol": "aArbDAI",
+            "decimals": 18,
+            "assetId": "aave-dai",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x625E7708f30cA75bfd92586e17077590C60eb4cD": {
+            "name": "Aave Arbitrum USDC",
+            "symbol": "aArbUSDC",
+            "decimals": 6,
+            "assetId": "aave-usdc",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x724dc807b04555b71ed48a6896b6F41593b8C637": {
+            "name": "Aave Arbitrum USDCn",
+            "symbol": "aArbUSDCn",
+            "decimals": 6,
+            "assetId": "aave-usdcn",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530": {
+            "name": "Aave Arbitrum LINK",
+            "symbol": "aArbLINK",
+            "decimals": 18,
+            "assetId": "aave-link",
+            "assetType": "link",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x078f358208685046a11C85e8ad32895DED33A249": {
+            "name": "Aave Arbitrum WBTC",
+            "symbol": "aArbWBTC",
+            "decimals": 8,
+            "assetId": "aave-wbtc",
+            "assetType": "btc",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8": {
+            "name": "Aave Arbitrum WETH",
+            "symbol": "aArbWETH",
+            "decimals": 18,
+            "assetId": "aave-weth",
+            "assetType": "eth",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375": {
+            "name": "Aave Arbitrum AAVE",
+            "symbol": "aArbAAVE",
+            "decimals": 18,
+            "assetId": "aave-aave",
+            "assetType": "aave",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97": {
+            "name": "Aave Arbitrum EURS",
+            "symbol": "aArbEURS",
+            "decimals": 2,
+            "assetId": "aave-eurs",
+            "assetType": "euro",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf": {
+            "name": "Aave Arbitrum wstETH",
+            "symbol": "aArbwstETH",
+            "decimals": 18,
+            "assetId": "aave-wsteth",
+            "assetType": "eth",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x8437d7C167dFB82ED4Cb79CD44B7a32A1dd95c77": {
+            "name": "Aave Arbitrum weETH",
+            "symbol": "aArbweETH",
+            "decimals": 18,
+            "assetId": "aave-weeth",
+            "assetType": "eth",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x6533afac2E7BCCB20dca161449A13A32D391fb00": {
+            "name": "Aave Arbitrum ARB",
+            "symbol": "aArbARB",
+            "decimals": 18,
+            "assetId": "aave-arb",
+            "assetType": "arb",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x8Eb270e296023E9D92081fdF967dDd7878724424": {
+            "name": "Aave Arbitrum rETH",
+            "symbol": "aArbrETH",
+            "decimals": 18,
+            "assetId": "aave-reth",
+            "assetType": "eth",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692": {
+            "name": "Aave Arbitrum LUSD",
+            "symbol": "aArbLUSD",
+            "decimals": 18,
+            "assetId": "aave-lusd",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x1622bF67e6e5747b81866fE0b85178a93C7F86e3": {
+            "name": "Umami",
+            "symbol": "UMAMI",
+            "decimals": 9,
+            "assetId": "umami",
+            "assetType": "umami",
+            "protocolId": "umami-finance",
+            "isRebasing": false
+            },
+            "0x10393c20975cF177a3513071bC110f7962CD67da": {
+            "name": "Jones DAO",
+            "symbol": "JONES",
+            "decimals": 18,
+            "assetId": "jones",
+            "assetType": "jones",
+            "protocolId": "jones-dao",
+            "isRebasing": false
+            },
+            "0x641441c631e2F909700d2f41FD87F0aA6A6b4EDb": {
+            "name": "dForce USD",
+            "symbol": "USX",
+            "decimals": 18,
+            "assetId": "usx",
+            "assetType": "usd",
+            "protocolId": "dforce",
+            "isRebasing": false
+            },
+            "0x6694340fc020c5E6B96567843da2df01b2CE1eb6": {
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "assetId": "stg",
+            "assetType": "stg",
+            "protocolId": "stargate",
+            "isRebasing": false
+            },
+            "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42": {
+            "name": "MCDEX Token",
+            "symbol": "MCB",
+            "decimals": 18,
+            "assetId": "mcb",
+            "assetType": "mcb",
+            "protocolId": "mux-protocol",
+            "isRebasing": false
+            },
+            "0x031d35296154279DC1984dCD93E392b1f946737b": {
+            "name": "Cap",
+            "symbol": "CAP",
+            "decimals": 18,
+            "assetId": "cap",
+            "assetType": "cap",
+            "protocolId": "cap",
+            "isRebasing": false
+            },
+            "0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689": {
+            "name": "dForce",
+            "symbol": "DF",
+            "decimals": 18,
+            "assetId": "df",
+            "assetType": "df",
+            "protocolId": "dforce",
+            "isRebasing": false
+            },
+            "0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581": {
+            "name": "DODO bird",
+            "symbol": "DODO",
+            "decimals": 18,
+            "assetId": "dodo",
+            "assetType": "dodo",
+            "protocolId": "dodo",
+            "isRebasing": false
+            },
+            "0x2CaB3abfC1670D1a452dF502e216a66883cDf079": {
+            "name": "Layer2DAO",
+            "symbol": "L2DAO",
+            "decimals": 18,
+            "assetId": "l2dao",
+            "assetType": "l2dao",
+            "protocolId": "l2dao",
+            "isRebasing": false
+            },
+            "0xdE903E2712288A1dA82942DDdF2c20529565aC30": {
+            "name": "Swapr",
+            "symbol": "SWPR",
+            "decimals": 18,
+            "assetId": "swpr",
+            "assetType": "swpr",
+            "protocolId": "l2dao",
+            "isRebasing": false
+            },
+            "0xeD3fB761414DA74b74F33e5c5a1f78104b188DfC": {
+            "name": "ArbiNYAN",
+            "symbol": "NYAN",
+            "decimals": 18,
+            "assetId": "nyan",
+            "assetType": "nyan",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0x080F6AEd32Fc474DD5717105Dba5ea57268F46eb": {
+            "name": "Synapse",
+            "symbol": "SYN",
+            "decimals": 18,
+            "assetId": "syn",
+            "assetType": "syn",
+            "protocolId": "synapse",
+            "isRebasing": false
+            },
+            "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE": {
+            "name": "Elk",
+            "symbol": "ELK",
+            "decimals": 18,
+            "assetId": "elk",
+            "assetType": "elk",
+            "protocolId": "elk-finance",
+            "isRebasing": false
+            },
+            "0x289ba1701C2F088cf0faf8B3705246331cB8A839": {
+            "name": "Livepeer Token",
+            "symbol": "LPT",
+            "decimals": 18,
+            "assetId": "lpt",
+            "assetType": "lpt",
+            "protocolId": "livepeer",
+            "isRebasing": false
+            },
+            "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8": {
+            "name": "Rocket Pool ETH",
+            "symbol": "rETH",
+            "decimals": 18,
+            "assetId": "reth",
+            "assetType": "eth",
+            "protocolId": "rocketpool",
+            "isRebasing": false
+            },
+            "0xB766039cc6DB368759C1E56B79AFfE831d0Cc507": {
+            "name": "Rocket Pool Protocol",
+            "symbol": "RPL",
+            "decimals": 18,
+            "assetId": "rpl",
+            "assetType": "rpl",
+            "protocolId": "rocketpool",
+            "isRebasing": false
+            },
+            "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196": {
+            "name": "Aave",
+            "symbol": "AAVE",
+            "decimals": 18,
+            "assetId": "aave",
+            "assetType": "aave",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0xD22a58f79e9481D1a88e00c343885A588b34b68B": {
+            "name": "STASIS EURS Token",
+            "symbol": "EURS",
+            "decimals": 2,
+            "assetId": "eurs",
+            "assetType": "euro",
+            "protocolId": "stasis",
+            "isRebasing": false
+            },
+            "0xDBf31dF14B66535aF65AaC99C32e9eA844e14501": {
+            "name": "renBTC (renBTC)",
+            "symbol": "renBTC",
+            "decimals": 8,
+            "assetId": "renbtc",
+            "assetType": "btc",
+            "protocolId": "ren",
+            "isRebasing": false
+            },
+            "0x49448d2B94fb9C4e41a30aD8315D32f46004A34b": {
+            "name": "2CRV yVault",
+            "symbol": "yv2CRV",
+            "decimals": 18,
+            "assetId": "yv2crv",
+            "assetType": "usd",
+            "protocolId": "yearn-v2",
+            "isRebasing": false
+            },
+            "0xC74fE4c715510Ec2F8C61d70D397B32043F55Abe": {
+            "name": "Mycelium",
+            "symbol": "MYC",
+            "decimals": 18,
+            "assetId": "myc",
+            "assetType": "myc",
+            "protocolId": "mycelium",
+            "isRebasing": false
+            },
+            "0x5979D7b546E38E414F7E9822514be443A4800529": {
+            "name": "Wrapped liquid staked Ether 2.0",
+            "symbol": "wstETH",
+            "decimals": 18,
+            "assetId": "wsteth",
+            "assetType": "eth",
+            "protocolId": "lido",
+            "isRebasing": false
+            },
+            "0xfaC38532829fDD744373fdcd4708Ab90fA0c4078": {
+            "name": "tender LPT",
+            "symbol": "tLPT",
+            "decimals": 18,
+            "assetId": "tlpt",
+            "assetType": "lpt",
+            "protocolId": "tenderize",
+            "isRebasing": true
+            },
+            "0xd2568acCD10A4C98e87c44E9920360031ad89fCB": {
+            "name": "3xcalibur Ecosystem Token",
+            "symbol": "XCAL",
+            "decimals": 18,
+            "assetId": "xcal",
+            "assetType": "xcal",
+            "protocolId": "3xcalibur",
+            "isRebasing": false
+            },
+            "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b": {
+            "name": "Wootrade Network",
+            "symbol": "WOO",
+            "decimals": 18,
+            "assetId": "woo",
+            "assetType": "woo",
+            "protocolId": "woo",
+            "isRebasing": false
+            },
+            "0xb348B87b23D5977E2948E6f36ca07E1EC94d7328": {
+            "name": "SwapFish",
+            "symbol": "FISH",
+            "decimals": 18,
+            "assetId": "fish-swapfish",
+            "assetType": "fish-swapfish",
+            "protocolId": "swapfish",
+            "isRebasing": false
+            },
+            "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60": {
+            "name": "Lido DAO Token",
+            "symbol": "LDO",
+            "decimals": 18,
+            "assetId": "ldo",
+            "assetType": "ldo",
+            "protocolId": "lido",
+            "isRebasing": false
+            },
+            "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d": {
+            "name": "Mai Stablecoin",
+            "symbol": "MAI",
+            "decimals": 18,
+            "assetId": "mimatic",
+            "assetType": "usd",
+            "protocolId": "qi-dao",
+            "isRebasing": false
+            },
+            "0x18c11FD286C5EC11c3b683Caa813B77f5163A122": {
+            "name": "Gains Network",
+            "symbol": "GNS",
+            "decimals": 18,
+            "assetId": "gns",
+            "assetType": "gns",
+            "protocolId": "gains-network",
+            "isRebasing": false
+            },
+            "0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8": {
+            "name": "Camelot token",
+            "symbol": "GRAIL",
+            "decimals": 18,
+            "assetId": "grail",
+            "assetType": "grail",
+            "protocolId": "camelot",
+            "isRebasing": false
+            },
+            "0x5575552988A3A80504bBaeB1311674fCFd40aD4B": {
+            "name": "Sperax",
+            "symbol": "SPA",
+            "decimals": 18,
+            "assetId": "spa",
+            "assetType": "spa",
+            "protocolId": "sperax",
+            "isRebasing": false
+            },
+            "0x1A5B0aaF478bf1FDA7b934c76E7692D722982a6D": {
+            "name": "Buffer Token",
+            "symbol": "BFR",
+            "decimals": 18,
+            "assetId": "bfr",
+            "assetType": "bfr",
+            "protocolId": "buffer",
+            "isRebasing": false
+            },
+            "0x4945970EfeEc98D393b4b979b9bE265A3aE28A8B": {
+            "name": "GMD",
+            "symbol": "GMD",
+            "decimals": 18,
+            "assetId": "gmd",
+            "assetType": "gmd",
+            "protocolId": "gmd-protocol",
+            "isRebasing": false
+            },
+            "0x51318B7D00db7ACc4026C88c3952B66278B6A67F": {
+            "name": "Plutus",
+            "symbol": "PLS",
+            "decimals": 18,
+            "assetId": "pls",
+            "assetType": "pls",
+            "protocolId": "plutusdao",
+            "isRebasing": false
+            },
+            "0xF236ea74B515eF96a9898F5a4ed4Aa591f253Ce1": {
+            "name": "Plutus DPX",
+            "symbol": "plsDPX",
+            "decimals": 18,
+            "assetId": "plsdpx",
+            "assetType": "plsdpx",
+            "protocolId": "plutusdao",
+            "isRebasing": false
+            },
+            "0x4D15a3A2286D883AF0AA1B3f21367843FAc63E07": {
+            "name": "TrueUSD",
+            "symbol": "TUSD",
+            "decimals": 18,
+            "assetId": "tusd",
+            "assetType": "usd",
+            "protocolId": "trueusd",
+            "isRebasing": false
+            },
+            "0x99C409E5f62E4bd2AC142f17caFb6810B8F0BAAE": {
+            "name": "beefy.finance",
+            "symbol": "BIFI",
+            "decimals": 18,
+            "assetId": "bifi",
+            "assetType": "bifi",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x9E75f8298e458B76382870982788988A0799195b": {
+            "name": "Moo Curve wstETH",
+            "symbol": "mooCurveWSTETH",
+            "decimals": 18,
+            "assetId": "moocurvewsteth",
+            "assetType": "eth",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0xDa2307A45D298e855415675bF388e2bd64351D5b": {
+            "name": "Moo Abrcdbr MIM-2CRV",
+            "symbol": "mooAbrcdbrMIM-2CRV",
+            "decimals": 18,
+            "assetId": "mooabrcdbrmim2crv",
+            "assetType": "usd",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0xEc7c0205a6f426c2Cb1667d783B5B4fD2f875434": {
+            "name": "Moo Curve 2Pool",
+            "symbol": "mooCurve2Pool",
+            "decimals": 18,
+            "assetId": "moocurve2pool",
+            "assetType": "usd",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x78AB636351c1C5f117C1442B82d14aB3a92F8464": {
+            "name": "Moo Arbitrum BIFI",
+            "symbol": "mooArbitrumBIFI",
+            "decimals": 18,
+            "assetId": "mooarbitrumbifi",
+            "assetType": "bifi",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0xFA5Ed56A203466CbBC2430a43c66b9D8723528E7": {
+            "name": "EURA",
+            "symbol": "EURA",
+            "decimals": 18,
+            "assetId": "eura",
+            "assetType": "euro",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x004626A008B1aCdC4c74ab51644093b155e59A23": {
+            "name": "Staked EURA",
+            "symbol": "stEUR",
+            "decimals": 18,
+            "assetId": "steur",
+            "assetType": "euro",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x0000206329b97DB379d5E1Bf586BbDB969C63274": {
+            "name": "USDA",
+            "symbol": "USDA",
+            "decimals": 18,
+            "assetId": "usda",
+            "assetType": "usd",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776": {
+            "name": "Staked USDA",
+            "symbol": "stUSD",
+            "decimals": 18,
+            "assetId": "stusd",
+            "assetType": "usd",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0xe4DDDfe67E7164b0FE14E218d80dC4C08eDC01cB": {
+            "name": "Kyber Network Crystal v2",
+            "symbol": "KNC",
+            "decimals": 18,
+            "assetId": "knc",
+            "assetType": "knc",
+            "protocolId": "kyber",
+            "isRebasing": false
+            },
+            "0x463913D3a3D3D291667D53B8325c598Eb88D3B0e": {
+            "name": "SolidLizard dex token",
+            "symbol": "SLIZ",
+            "decimals": 18,
+            "assetId": "sliz",
+            "assetType": "sliz",
+            "protocolId": "solidlizard",
+            "isRebasing": false
+            },
+            "0x73eD68B834e44096eB4beA6eDeAD038c945722F1": {
+            "name": "SharkySwap",
+            "symbol": "SHARKY",
+            "decimals": 18,
+            "assetId": "sharky",
+            "assetType": "sharky",
+            "protocolId": "sharky-swap",
+            "isRebasing": false
+            },
+            "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b": {
+            "name": "LUSD Stablecoin",
+            "symbol": "LUSD",
+            "decimals": 18,
+            "assetId": "lusd",
+            "assetType": "usd",
+            "protocolId": "liquity",
+            "isRebasing": false
+            },
+            "0x088cd8f5eF3652623c22D48b1605DCfE860Cd704": {
+            "name": "VelaToken",
+            "symbol": "VELA",
+            "decimals": 18,
+            "assetId": "vela",
+            "assetType": "vela",
+            "protocolId": "vela",
+            "isRebasing": false
+            },
+            "0x3B475F6f2f41853706afc9Fa6a6b8C5dF1a2724c": {
+            "name": "Zyber Token",
+            "symbol": "ZYB",
+            "decimals": 18,
+            "assetId": "zyb",
+            "assetType": "zyb",
+            "protocolId": "zyberswap",
+            "isRebasing": false
+            },
+            "0xAD435674417520aeeED6b504bBe654d4f556182F": {
+            "name": "Jarvis Synthetic Euro",
+            "symbol": "jEUR",
+            "decimals": 18,
+            "assetId": "jeur",
+            "assetType": "euro",
+            "protocolId": "jarvis",
+            "isRebasing": false
+            },
+            "0x3082CC23568eA640225c2467653dB90e9250AaA0": {
+            "name": "Radiant",
+            "symbol": "RDNT",
+            "decimals": 18,
+            "assetId": "rdnt",
+            "assetType": "rdnt",
+            "protocolId": "radiant-capital",
+            "isRebasing": false
+            },
+            "0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017": {
+            "name": "Radiant (OLD)",
+            "symbol": "RDNT (OLD)",
+            "decimals": 18,
+            "assetId": "rdnt",
+            "assetType": "rdnt",
+            "protocolId": "radiant-capital",
+            "isRebasing": false
+            },
+            "0x727354712BDFcd8596a3852Fd2065b3C34F4F770": {
+            "name": "Radiant interest bearing WBTC",
+            "symbol": "rWBTC",
+            "decimals": 8,
+            "assetId": "radiant-wbtc",
+            "assetType": "btc",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0xd69D402D1bDB9A2b8c3d88D98b9CEaf9e4Cd72d9": {
+            "name": "Radiant interest bearing USDT",
+            "symbol": "rUSDT",
+            "decimals": 6,
+            "assetId": "radiant-usdt",
+            "assetType": "usd",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x48a29E756CC1C097388f3B2f3b570ED270423b3d": {
+            "name": "Radiant interest bearing USDC",
+            "symbol": "rUSDC",
+            "decimals": 6,
+            "assetId": "radiant-usdc",
+            "assetType": "usd",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x0D914606f3424804FA1BbBE56CCC3416733acEC6": {
+            "name": "Radiant interest bearing DAI",
+            "symbol": "rDAI",
+            "decimals": 18,
+            "assetId": "radiant-dai",
+            "assetType": "",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x0dF5dfd95966753f01cb80E76dc20EA958238C46": {
+            "name": "Radiant interest bearing WETH",
+            "symbol": "rWETH",
+            "decimals": 18,
+            "assetId": "radiant-weth",
+            "assetType": "eth",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x42C248D137512907048021B30d9dA17f48B5b7B2": {
+            "name": "Radiant interest bearing WSTETH",
+            "symbol": "rWSTETH",
+            "decimals": 18,
+            "assetId": "radiant-wsteth",
+            "assetType": "eth",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x3a2d44e354f2d88EF6DA7A5A4646fd70182A7F55": {
+            "name": "Radiant interest bearing USDCn",
+            "symbol": "rUSDCn",
+            "decimals": 6,
+            "assetId": "radiant-usdc",
+            "assetType": "usd",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x2dADe5b7df9DA3a7e1c9748d169Cd6dFf77e3d01": {
+            "name": "Radiant interest bearing ARB",
+            "symbol": "rARB",
+            "decimals": 18,
+            "assetId": "radiant-arb",
+            "assetType": "arb",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0xb11A56DA177c5532D5E29cC8363d145bD0822c81": {
+            "name": "Radiant interest bearing weETH",
+            "symbol": "rweETH",
+            "decimals": 18,
+            "assetId": "radiant-weeth",
+            "assetType": "eth",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x5DB7b150c5F38c5F5db11dCBDB885028fcC51D68": {
+            "name": "Sterling",
+            "symbol": "STR",
+            "decimals": 18,
+            "assetId": "str",
+            "assetType": "str",
+            "protocolId": "sterling-finance",
+            "isRebasing": false
+            },
+            "0x6740Acb82ac5C63A7ad2397ee1faed7c788F5f8c": {
+            "name": "AlienFi",
+            "symbol": "ALIEN",
+            "decimals": 18,
+            "assetId": "alien",
+            "assetType": "alien",
+            "protocolId": "alienfi",
+            "isRebasing": false
+            },
+            "0x872bAD41CFc8BA731f811fEa8B2d0b9fd6369585": {
+            "name": "gFLY",
+            "symbol": "GFLY",
+            "decimals": 18,
+            "assetId": "gfly",
+            "assetType": "gfly",
+            "protocolId": "battlefly",
+            "isRebasing": false
+            },
+            "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07": {
+            "name": "JoeToken",
+            "symbol": "JOE",
+            "decimals": 18,
+            "assetId": "joe",
+            "assetType": "joe",
+            "protocolId": "trader-joe",
+            "isRebasing": false
+            },
+            "0xe26Ae3d881f3d5dEF58D795f611753804E7A6B26": {
+            "name": "BetSwirl Token",
+            "symbol": "BETS",
+            "decimals": 18,
+            "assetId": "bets",
+            "assetType": "bets",
+            "protocolId": "betswirl",
+            "isRebasing": false
+            },
+            "0xD77B108d4f6cefaa0Cae9506A934e825BEccA46E": {
+            "name": "WINR",
+            "symbol": "WINR",
+            "decimals": 18,
+            "assetId": "winr",
+            "assetType": "winr",
+            "protocolId": "winr-protocol",
+            "isRebasing": false
+            },
+            "0x7F465507f058e17Ad21623927a120ac05CA32741": {
+            "name": "Arcadeum",
+            "symbol": "ARC",
+            "decimals": 18,
+            "assetId": "arc",
+            "assetType": "arc",
+            "protocolId": "arcadeum",
+            "isRebasing": false
+            },
+            "0xD74f5255D557944cf7Dd0E45FF521520002D5748": {
+            "name": "Sperax USD",
+            "symbol": "USDs",
+            "decimals": 18,
+            "assetId": "usds",
+            "assetType": "usd",
+            "protocolId": "sperax-usd",
+            "isRebasing": false
+            },
+            "0xa1150db5105987CEC5Fd092273d1e3cbb22b378b": {
+            "name": "Oath Token",
+            "symbol": "OATH",
+            "decimals": 18,
+            "assetId": "oath",
+            "assetType": "oath",
+            "protocolId": "oath",
+            "isRebasing": false
+            },
+            "0xb21Be1Caf592A5DC1e75e418704d1B6d50B0d083": {
+            "name": "CORTEX",
+            "symbol": "CRX",
+            "decimals": 18,
+            "assetId": "crx",
+            "assetType": "crx",
+            "protocolId": "mind-games-cortex",
+            "isRebasing": false
+            },
+            "0x912CE59144191C1204E64559FE8253a0e49E6548": {
+            "name": "Arbitrum",
+            "symbol": "ARB",
+            "decimals": 18,
+            "assetId": "arb",
+            "assetType": "arb",
+            "protocolId": "arbitrum",
+            "isRebasing": false
+            },
+            "0xe80772Eaf6e2E18B651F160Bc9158b2A5caFCA65": {
+            "name": "USD+",
+            "symbol": "USD+",
+            "decimals": 6,
+            "assetId": "usd-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0xeb8E93A0c7504Bffd8A8fFa56CD754c63aAeBFe8": {
+            "name": "DAI+",
+            "symbol": "DAI+",
+            "decimals": 18,
+            "assetId": "dai-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0xb1084db8D3C05CEbd5FA9335dF95EE4b8a0edc30": {
+            "name": "USDT+",
+            "symbol": "USDT+",
+            "decimals": 6,
+            "assetId": "usdt-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0xD4939D69B31fbE981ed6904A3aF43Ee1dc777Aab": {
+            "name": "ETH+ (Overnight)",
+            "symbol": "ETH+ (OVN)",
+            "decimals": 18,
+            "assetId": "eth-plus",
+            "assetType": "eth",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0xB86fb1047A955C0186c77ff6263819b37B32440D": {
+            "name": "Wrapped USD+",
+            "symbol": "wUSD+",
+            "decimals": 6,
+            "assetId": "w-usd-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0x72f99511615Cd8fA4D776d76bb8B8f7A5162F60F": {
+            "name": "Wrapped ETH+",
+            "symbol": "wETH+",
+            "decimals": 18,
+            "assetId": "w-eth-plus",
+            "assetType": "eth",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396": {
+            "name": "OVN",
+            "symbol": "OVN",
+            "decimals": 18,
+            "assetId": "ovn",
+            "assetType": "ovn",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
+            "name": "BOB",
+            "symbol": "BOB",
+            "decimals": 18,
+            "assetId": "bob",
+            "assetType": "usd",
+            "protocolId": "zkbob",
+            "isRebasing": false
+            },
+            "0x7B5EB3940021Ec0e8e463D5dBB4B7B09a89DDF96": {
+            "name": "Wombat Token",
+            "symbol": "WOM",
+            "decimals": 18,
+            "assetId": "wom",
+            "assetType": "wom",
+            "protocolId": "wombat-exchange",
+            "isRebasing": false
+            },
+            "0x6A7661795C374c0bFC635934efAddFf3A7Ee23b6": {
+            "name": "Dola USD Stablecoin",
+            "symbol": "DOLA",
+            "decimals": 18,
+            "assetId": "dola",
+            "assetType": "usd",
+            "protocolId": "inverse-finance",
+            "isRebasing": false
+            },
+            "0x56b251d4b493ee3956E3f899D36b7290902D2326": {
+            "name": "Mad Meerkat Finance",
+            "symbol": "MMF",
+            "decimals": 18,
+            "assetId": "mmf",
+            "assetType": "mmf",
+            "protocolId": "mmfinance",
+            "isRebasing": false
+            },
+            "0x6688b00f0c23a4a546BEaAE51a7c90C439895D48": {
+            "name": "Tarot",
+            "symbol": "TAROT",
+            "decimals": 18,
+            "assetId": "tarot",
+            "assetType": "tarot",
+            "protocolId": "tarot",
+            "isRebasing": false
+            },
+            "0xfb9E5D956D889D91a82737B9bFCDaC1DCE3e1449": {
+            "name": "LQTY",
+            "symbol": "LQTY",
+            "decimals": 18,
+            "assetId": "lqty",
+            "assetType": "lqty",
+            "protocolId": "liquity",
+            "isRebasing": false
+            },
+            "0xD5954c3084a1cCd70B4dA011E67760B8e78aeE84": {
+            "name": "ArbiDex Token",
+            "symbol": "ARX",
+            "decimals": 18,
+            "assetId": "arx",
+            "assetType": "arx",
+            "protocolId": "arbitrum-exchange",
+            "isRebasing": false
+            },
+            "0x73700aeCfC4621E112304B6eDC5BA9e36D7743D3": {
+            "name": "liquid ETH",
+            "symbol": "lqETH",
+            "decimals": 18,
+            "assetId": "lqeth",
+            "assetType": "lqeth",
+            "protocolId": "liquid-finance",
+            "isRebasing": false
+            },
+            "0xdA51015b73cE11F77A115Bb1b8a7049e02dDEcf0": {
+            "name": "Neutra Token",
+            "symbol": "NEU",
+            "decimals": 18,
+            "assetId": "neu",
+            "assetType": "neu",
+            "protocolId": "neutra-finance",
+            "isRebasing": false
+            },
+            "0xFF191514A9baba76BfD19e3943a4d37E8ec9a111": {
+            "name": "Auragi",
+            "symbol": "AGI",
+            "decimals": 18,
+            "assetId": "agi",
+            "assetType": "agi",
+            "protocolId": "auragi",
+            "isRebasing": false
+            },
+            "0x0341C0C0ec423328621788d4854119B97f44E391": {
+            "name": "Silo Governance Token",
+            "symbol": "SILO",
+            "decimals": 18,
+            "assetId": "silo",
+            "assetType": "silo",
+            "protocolId": "silo-finance",
+            "isRebasing": false
+            },
+            "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC": {
+            "name": "Hop",
+            "symbol": "HOP",
+            "decimals": 18,
+            "assetId": "hop",
+            "assetType": "hop",
+            "protocolId": "hop",
+            "isRebasing": false
+            },
+            "0xAAA6C1E32C55A7Bfa8066A6FAE9b42650F262418": {
+            "name": "Ramses",
+            "symbol": "RAM",
+            "decimals": 18,
+            "assetId": "ram",
+            "assetType": "ram",
+            "protocolId": "ramses-exchange",
+            "isRebasing": false
+            },
+            "0x6bB7A17AcC227fd1F6781D1EEDEAE01B42047eE0": {
+            "name": "LEX",
+            "symbol": "LEX",
+            "decimals": 18,
+            "assetId": "lex",
+            "assetType": "lex",
+            "protocolId": "lexer-markets",
+            "isRebasing": false
+            },
+            "0x15b2fb8f08E4Ac1Ce019EADAe02eE92AeDF06851": {
+            "name": "CHRONOS",
+            "symbol": "CHR",
+            "decimals": 18,
+            "assetId": "chr",
+            "assetType": "chr",
+            "protocolId": "chronos-finance",
+            "isRebasing": false
+            },
+            "0x417a1aFD44250314BffB11ff68E989775e990ab6": {
+            "name": "Volta Protocol Token",
+            "symbol": "VOLTA",
+            "decimals": 18,
+            "assetId": "volta",
+            "assetType": "volta",
+            "protocolId": "volta-protocol",
+            "isRebasing": false
+            },
+            "0xD67A097dCE9d4474737e6871684aE3c05460F571": {
+            "name": "GND",
+            "symbol": "GND",
+            "decimals": 18,
+            "assetId": "gnd",
+            "assetType": "gnd",
+            "protocolId": "gnd-protocol",
+            "isRebasing": false
+            },
+            "0x51fC0f6660482Ea73330E414eFd7808811a57Fa2": {
+            "name": "Premia",
+            "symbol": "PREMIA",
+            "decimals": 18,
+            "assetId": "premia",
+            "assetType": "premia",
+            "protocolId": "premia",
+            "isRebasing": false
+            },
+            "0xEC13336bbd50790a00CDc0fEddF11287eaF92529": {
+            "name": "gmUSD",
+            "symbol": "gmUSD",
+            "decimals": 18,
+            "assetId": "gmusd",
+            "assetType": "gmusd",
+            "protocolId": "gnd-protocol",
+            "isRebasing": false
+            },
+            "0x3DB4B7DA67dd5aF61Cb9b3C70501B1BdB24b2C22": {
+            "name": "gmdUSDC",
+            "symbol": "gmdUSDC",
+            "decimals": 18,
+            "assetId": "gmdusdc",
+            "assetType": "gmdusdc",
+            "protocolId": "gnd-protocol",
+            "isRebasing": false
+            },
+            "0xf50874f8246776CA4B89eEF471E718F70f38458F": {
+            "name": "Arbswap Token",
+            "symbol": "ARBS",
+            "decimals": 18,
+            "assetId": "arbs",
+            "assetType": "arbs",
+            "protocolId": "arbswap",
+            "isRebasing": false
+            },
+            "0xDDc0385169797937066bBd8EF409b5B3c0dFEB52": {
+            "name": "Wrapped USDR",
+            "symbol": "wUSDR",
+            "decimals": 9,
+            "assetId": "wusdr",
+            "assetType": "usd",
+            "protocolId": "tangible",
+            "isRebasing": false
+            },
+            "0xd85E038593d7A098614721EaE955EC2022B9B91B": {
+            "name": "Gains Network DAI",
+            "symbol": "gDAI",
+            "decimals": 18,
+            "assetId": "gdai",
+            "assetType": "gdai",
+            "protocolId": "gains-network",
+            "isRebasing": false
+            },
+            "0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0": {
+            "name": "Gains Network USDC",
+            "symbol": "gUSDC",
+            "decimals": 6,
+            "assetId": "gusdc",
+            "assetType": "gusdc",
+            "protocolId": "gains-network",
+            "isRebasing": false
+            },
+            "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8": {
+            "name": "Pendle",
+            "symbol": "PENDLE",
+            "decimals": 18,
+            "assetId": "pendle",
+            "assetType": "pendle",
+            "protocolId": "pendle",
+            "isRebasing": false
+            },
+            "0xBfbCFe8873fE28Dfa25f1099282b088D52bbAD9C": {
+            "name": "Equilibria Token",
+            "symbol": "EQB",
+            "decimals": 18,
+            "assetId": "eqb",
+            "assetType": "eqb",
+            "protocolId": "equilibria-finance",
+            "isRebasing": false
+            },
+            "0xE85B662Fe97e8562f4099d8A1d5A92D4B453bF30": {
+            "name": "Thales DAO Token",
+            "symbol": "THALES",
+            "decimals": 18,
+            "assetId": "thales",
+            "assetType": "thales",
+            "protocolId": "thales-dao",
+            "isRebasing": false
+            },
+            "0x6Aa395F06986ea4eFe0a4630C7865C1eB08D5e7e": {
+            "name": "Jarvis Reward Token",
+            "symbol": "JRT",
+            "decimals": 18,
+            "assetId": "jrt",
+            "assetType": "jrt",
+            "protocolId": "jarvis",
+            "isRebasing": false
+            },
+            "0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149": {
+            "name": "Level Token",
+            "symbol": "LVL",
+            "decimals": 18,
+            "assetId": "lvl",
+            "assetType": "lvl",
+            "protocolId": "level",
+            "isRebasing": false
+            },
+            "0x079504b86d38119F859c4194765029F692b7B7aa": {
+            "name": "Lyra Token",
+            "symbol": "LYRA",
+            "decimals": 18,
+            "assetId": "lyra",
+            "assetType": "lyra",
+            "protocolId": "lyra",
+            "isRebasing": false
+            },
+            "0xA6D7D0e650aa40FFa42d845A354c12c2bc0aB15f": {
+            "name": "MUMMY",
+            "symbol": "MMY",
+            "decimals": 18,
+            "assetId": "mmy",
+            "assetType": "mmy",
+            "protocolId": "mummy-finance",
+            "isRebasing": false
+            },
+            "0x9ed7E4B1BFF939ad473dA5E7a218C771D1569456": {
+            "name": "Reunit Token",
+            "symbol": "REUNI",
+            "decimals": 6,
+            "assetId": "reuni",
+            "assetType": "reuni",
+            "protocolId": "reunit",
+            "isRebasing": false
+            },
+            "0xa334884bF6b0A066d553D19e507315E839409e62": {
+            "name": "Ethos Reserve Note",
+            "symbol": "ERN",
+            "decimals": 18,
+            "assetId": "ern",
+            "assetType": "usd",
+            "protocolId": "ethos",
+            "isRebasing": false
+            },
+            "0x8616E8EA83f048ab9A5eC513c9412Dd2993bcE3F": {
+            "name": "handleUSD",
+            "symbol": "fxUSD",
+            "decimals": 18,
+            "assetId": "fxusd",
+            "assetType": "usd",
+            "protocolId": "handleusd",
+            "isRebasing": false
+            },
+            "0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f": {
+            "name": "Coinbase Wrapped Staked ETH",
+            "symbol": "cbETH",
+            "decimals": 18,
+            "assetId": "cbeth",
+            "assetType": "eth",
+            "protocolId": "coinbase",
+            "isRebasing": false
+            },
+            "0xEB466342C4d449BC9f53A865D5Cb90586f405215": {
+            "name": "Axelar Wrapped USDC",
+            "symbol": "axlUSDC",
+            "decimals": 6,
+            "assetId": "axlusdc",
+            "assetType": "usd",
+            "protocolId": "axelar",
+            "isRebasing": false
+            },
+            "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40": {
+            "name": "Arbitrum tBTC v2",
+            "symbol": "tBTC",
+            "decimals": 18,
+            "assetId": "tbtc",
+            "assetType": "btc",
+            "protocolId": "threshold",
+            "isRebasing": false
+            },
+            "0xabD587f2607542723b17f14d00d99b987C29b074": {
+            "name": "SmarDex Token",
+            "symbol": "SDEX",
+            "decimals": 18,
+            "assetId": "sdex",
+            "assetType": "sdex",
+            "protocolId": "smardex",
+            "isRebasing": false
+            },
+            "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
+            "name": "Alchemix USD",
+            "symbol": "alUSD",
+            "decimals": 18,
+            "assetId": "alusd",
+            "assetType": "usd",
+            "protocolId": "alchemix",
+            "isRebasing": false
+            },
+            "0x17573150d67d820542EFb24210371545a4868B03": {
+            "name": "Alchemix ETH",
+            "symbol": "alETH",
+            "decimals": 18,
+            "assetId": "aleth",
+            "assetType": "eth",
+            "protocolId": "alchemix",
+            "isRebasing": false
+            },
+            "0x27b58D226fe8f792730a795764945Cf146815AA7": {
+            "name": "Alchemix",
+            "symbol": "ALCX",
+            "decimals": 18,
+            "assetId": "alcx",
+            "assetType": "alcx",
+            "protocolId": "alchemix",
+            "isRebasing": false
+            },
+            "0xF549Ce4082978524f651DEC918E738EEfE77c3bC": {
+            "name": "SHEKEL",
+            "symbol": "SHEKEL",
+            "decimals": 18,
+            "assetId": "shekel",
+            "assetType": "shekel",
+            "protocolId": "shekelswap",
+            "isRebasing": false
+            },
+            "0xEe32ED3AC2A431A0F0e1DBba46ba27AE8d072902": {
+            "name": "gSHEKEL",
+            "symbol": "gSHEKEL",
+            "decimals": 18,
+            "assetId": "gshekel",
+            "assetType": "gshekel",
+            "protocolId": "shekelswap",
+            "isRebasing": false
+            },
+            "0xe47ba52f326806559c1deC7ddd997F6957d0317D": {
+            "name": "Shell",
+            "symbol": "SHELL",
+            "decimals": 18,
+            "assetId": "shell",
+            "assetType": "shell",
+            "protocolId": "shell-protocol",
+            "isRebasing": false
+            },
+            "0x777CF5ba9C291A1A8f57FF14836F6F9dC5c0F9Dd": {
+            "name": "Solidly",
+            "symbol": "SOLID",
+            "decimals": 18,
+            "assetId": "solidv2",
+            "assetType": "solidv2",
+            "protocolId": "solidly-v2",
+            "isRebasing": false
+            },
+            "0x8b5e4C9a188b1A187f2D1E80b1c2fB17fA2922e1": {
+            "name": "GoldenBoys",
+            "symbol": "GOLD",
+            "decimals": 18,
+            "assetId": "gold",
+            "assetType": "gold",
+            "protocolId": "goldenboys",
+            "isRebasing": false
+            },
+            "0x1509706a6c66CA549ff0cB464de88231DDBe213B": {
+            "name": "Aura",
+            "symbol": "AURA",
+            "decimals": 18,
+            "assetId": "aura",
+            "assetType": "aura",
+            "protocolId": "aura-finance",
+            "isRebasing": false
+            },
+            "0x47C337Bd5b9344a6F3D6f58C474D9D8cd419D8cA": {
+            "name": "Dackie Token",
+            "symbol": "DACKIE",
+            "decimals": 18,
+            "assetId": "dackie",
+            "assetType": "dackie",
+            "protocolId": "dackieswap",
+            "isRebasing": false
+            },
+            "0x59DEBED8D46a0cB823D8BE8b957adD987eAd39aa": {
+            "name": "Quack Token",
+            "symbol": "QUACK",
+            "decimals": 18,
+            "assetId": "quack",
+            "assetType": "quack",
+            "protocolId": "dackieswap",
+            "isRebasing": false
+            },
+            "0xd1E094CabC5aCB9D3b0599C3F76f2D01fF8d3563": {
+            "name": "Virtuswap Token",
+            "symbol": "VRSW",
+            "decimals": 18,
+            "assetId": "vrsw",
+            "assetType": "vrsw",
+            "protocolId": "virtuswap",
+            "isRebasing": false
+            },
+            "0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487": {
+            "name": "Gravita Debt Token",
+            "symbol": "GRAI",
+            "decimals": 18,
+            "assetId": "grai",
+            "assetType": "grai",
+            "protocolId": "gravita",
+            "isRebasing": false
+            },
+            "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe": {
+            "name": "Wrapped eETH",
+            "symbol": "weETH",
+            "decimals": 18,
+            "assetId": "weeth",
+            "assetType": "eth",
+            "protocolId": "ether-fi",
+            "isRebasing": false
+            },
+            "0x7189fb5B6504bbfF6a852B13B7B82a3c118fDc27": {
+            "name": "ether.fi governance token",
+            "symbol": "ETHFI",
+            "decimals": 18,
+            "assetId": "ethfi",
+            "assetType": "ethfi",
+            "protocolId": "ether-fi",
+            "isRebasing": false
+            },
+            "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+            "name": "Renzo Restaked ETH",
+            "symbol": "ezETH",
+            "decimals": 18,
+            "assetId": "ezeth",
+            "assetType": "eth",
+            "protocolId": "renzo",
+            "isRebasing": false
+            },
+            "0xbc011A12Da28e8F0f528d9eE5E7039E22F91cf18": {
+            "name": "swETH",
+            "symbol": "swETH",
+            "decimals": 18,
+            "assetId": "sweth",
+            "assetType": "eth",
+            "protocolId": "swell",
+            "isRebasing": false
+            },
+            "0xf7d4e7273E5015C96728A6b02f31C505eE184603": {
+            "name": "Staked ETH",
+            "symbol": "osETH",
+            "decimals": 18,
+            "assetId": "oseth",
+            "assetType": "eth",
+            "protocolId": "stakewise",
+            "isRebasing": false
+            },
+            "0x18C14C2D707b2212e17d1579789Fc06010cfca23": {
+            "name": "ETHPlus (Reserve Protocol)",
+            "symbol": "ETH+ (RP)",
+            "decimals": 18,
+            "assetId": "ethplus",
+            "assetType": "eth",
+            "protocolId": "reserve-protocol",
+            "isRebasing": false
+            },
+            "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+            "name": "USDe",
+            "symbol": "USDe",
+            "decimals": 18,
+            "assetId": "usde",
+            "assetType": "usd",
+            "protocolId": "ethena",
+            "isRebasing": false
+            },
+            "0x4186BFC76E2E237523CBC30FD220FE055156b41F": {
+            "name": "KelpDao Restaked ETH",
+            "symbol": "rsETH",
+            "decimals": 18,
+            "assetId": "rseth",
+            "assetType": "eth",
+            "protocolId": "kelp-dao",
+            "isRebasing": false
+            },
+            "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C": {
+            "name": "Mountain Protocol USD",
+            "symbol": "USDM",
+            "decimals": 18,
+            "assetId": "usdm",
+            "assetType": "usd",
+            "protocolId": "mountain-protocol",
+            "isRebasing": true
+            },
+            "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812": {
+            "name": "Wrapped Mountain Protocol USD",
+            "symbol": "wUSDM",
+            "decimals": 18,
+            "assetId": "wusdm",
+            "assetType": "usd",
+            "protocolId": "mountain-protocol",
+            "isRebasing": false
+            },
+            "0xCF934E2402A5e072928a39a956964eb8F2B5B79C": {
+            "name": "PoolTogether",
+            "symbol": "POOL",
+            "decimals": 18,
+            "assetId": "pool",
+            "assetType": "pool",
+            "protocolId": "pooltogether",
+            "isRebasing": false
+            },
+            "0x97A9C02CFBBf0332D8172331461aB476dF1E8c95": {
+            "name": "Prize POOL",
+            "symbol": "przPOOL",
+            "decimals": 18,
+            "assetId": "przpool",
+            "assetType": "pool",
+            "protocolId": "pooltogether",
+            "isRebasing": false
+            },
+            "0x3c72A2A78C29D1f6454CAA1bcB17a7792a180a2e": {
+            "name": "Prize USDC",
+            "symbol": "przUSDC",
+            "decimals": 6,
+            "assetId": "przusdc",
+            "assetType": "usd",
+            "protocolId": "pooltogether",
+            "isRebasing": false
+            },
+            "0x7b0949204e7Da1B0beD6d4CCb68497F51621b574": {
+            "name": "Prize WETH",
+            "symbol": "przWETH",
+            "decimals": 18,
+            "assetId": "przweth",
+            "assetType": "eth",
+            "protocolId": "pooltogether",
+            "isRebasing": false
+            },
+            "0xCACBa8Be4bc225FB8d15a9A3b702f84ca3EBa991": {
+            "name": "Prize USDT",
+            "symbol": "przUSDT",
+            "decimals": 6,
+            "assetId": "przusdt",
+            "assetType": "usd",
+            "protocolId": "pooltogether",
+            "isRebasing": false
+            },
+            "0x6985884C4392D348587B19cb9eAAf157F13271cd": {
+            "name": "LayerZero",
+            "symbol": "ZRO",
+            "decimals": 18,
+            "assetId": "zro",
+            "assetType": "zro",
+            "protocolId": "layerzero",
+            "isRebasing": false
+            },
+            "0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD": {
+            "name": "Maverick Token",
+            "symbol": "MAV",
+            "decimals": 18,
+            "assetId": "mav",
+            "assetType": "mav",
+            "protocolId": "maverick",
+            "isRebasing": false
+            },
+            "0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33": {
+            "name": "Gho Token",
+            "symbol": "GHO",
+            "decimals": 18,
+            "assetId": "gho",
+            "assetType": "usd",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0x354A6dA3fcde098F8389cad84b0182725c6C91dE": {
+            "name": "Compound",
+            "symbol": "COMP",
+            "decimals": 18,
+            "assetId": "comp",
+            "assetType": "comp",
+            "protocolId": "compound",
+            "isRebasing": false
+            },
+            "0xadf5DD3E51bF28aB4F07e684eCF5d00691818790": {
+            "name": "ICHI",
+            "symbol": "ICHI",
+            "decimals": 18,
+            "assetId": "ichi",
+            "assetType": "ichi",
+            "protocolId": "ichi-farm",
+            "isRebasing": false
+            },
+            "0xCA5d8F8a8d49439357d3CF46Ca2e720702F132b8": {
+            "name": "Gyro Dollar",
+            "symbol": "GYD",
+            "decimals": 18,
+            "assetId": "gyd",
+            "assetType": "usd",
+            "protocolId": "gyroscope",
+            "isRebasing": false
+            }
+        }
+    },
+
+    "56": {
+        "tokenMap": {
+            "0x0000000000000000000000000000000000000000": {
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18,
+            "assetId": "bnb",
+            "assetType": "bnb",
+            "protocolId": "native",
+            "isRebasing": false
+            },
+            "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
+            "name": "Wrapped BNB",
+            "symbol": "WBNB",
+            "decimals": 18,
+            "assetId": "wbnb",
+            "assetType": "bnb",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56": {
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "assetId": "busd",
+            "assetType": "usd",
+            "protocolId": "binance",
+            "isRebasing": false
+            },
+            "0x55d398326f99059fF775485246999027B3197955": {
+            "name": "Binance-Peg BSC-USD (BSC-USD)",
+            "symbol": "USDT",
+            "decimals": 18,
+            "assetId": "usdt",
+            "assetType": "usd",
+            "protocolId": "tether",
+            "isRebasing": false
+            },
+            "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
+            "name": "Binance-Peg USD Coin (USDC)",
+            "symbol": "USDC",
+            "decimals": 18,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+            },
+            "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82": {
+            "name": "PancakeSwap Token",
+            "symbol": "Cake",
+            "decimals": 18,
+            "assetId": "cake",
+            "assetType": "cake",
+            "protocolId": "pancakeswap",
+            "isRebasing": false
+            },
+            "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
+            "name": "Binance-Peg BTCB Token (BTCB)",
+            "symbol": "BTCB",
+            "decimals": 18,
+            "assetId": "btcb",
+            "assetType": "btc",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
+            "name": "Ethereum Token",
+            "symbol": "ETH",
+            "decimals": 18,
+            "assetId": "eth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0xd17479997F34dd9156Deef8F95A52D81D265be9c": {
+            "name": "Decentralized USD",
+            "symbol": "USDD",
+            "decimals": 18,
+            "assetId": "usdd",
+            "assetType": "usd",
+            "protocolId": "tron",
+            "isRebasing": false
+            },
+            "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1": {
+            "name": "Biswap",
+            "symbol": "BSW",
+            "decimals": 18,
+            "assetId": "bsw",
+            "assetType": "bsw",
+            "protocolId": "biswap",
+            "isRebasing": false
+            },
+            "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3": {
+            "name": "DAI",
+            "symbol": "DAI",
+            "decimals": 18,
+            "assetId": "dai",
+            "assetType": "usd",
+            "protocolId": "maker-dao",
+            "isRebasing": false
+            },
+            "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD": {
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "decimals": 18,
+            "assetId": "link",
+            "assetType": "link",
+            "protocolId": "chainlink",
+            "isRebasing": false
+            },
+            "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE": {
+            "name": "XRP Token",
+            "symbol": "XRP",
+            "decimals": 18,
+            "assetId": "xrp",
+            "assetType": "xrp",
+            "protocolId": "ripple",
+            "isRebasing": false
+            },
+            "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47": {
+            "name": "Cardano Token",
+            "symbol": "ADA",
+            "decimals": 18,
+            "assetId": "ada",
+            "assetType": "ada",
+            "protocolId": "cardano",
+            "isRebasing": false
+            },
+            "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1": {
+            "name": "Uniswap",
+            "symbol": "UNI",
+            "decimals": 18,
+            "assetId": "uni",
+            "assetType": "uni",
+            "protocolId": "uniswap",
+            "isRebasing": false
+            },
+            "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4": {
+            "name": "SushiToken",
+            "symbol": "SUSHI",
+            "decimals": 18,
+            "assetId": "sushi",
+            "assetType": "sushi",
+            "protocolId": "sushi",
+            "isRebasing": false
+            },
+            "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B": {
+            "name": "TRON",
+            "symbol": "TRX",
+            "decimals": 18,
+            "assetId": "trx",
+            "assetType": "trx",
+            "protocolId": "tron",
+            "isRebasing": false
+            },
+            "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402": {
+            "name": "Polkadot Token",
+            "symbol": "DOT",
+            "decimals": 18,
+            "assetId": "dot",
+            "assetType": "dot",
+            "protocolId": "polkadot",
+            "isRebasing": false
+            },
+            "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9": {
+            "name": "TrueUSD",
+            "symbol": "TUSD",
+            "decimals": 18,
+            "assetId": "tusd",
+            "assetType": "usd",
+            "protocolId": "trueusd",
+            "isRebasing": false
+            },
+            "0x14016E85a25aeb13065688cAFB43044C2ef86784": {
+            "name": "TrueUSD (OLD)",
+            "symbol": "TUSD (OLD)",
+            "decimals": 18,
+            "assetId": "tusd",
+            "assetType": "usd",
+            "protocolId": "trueusd",
+            "isRebasing": false
+            },
+            "0xd32d01A43c869EdcD1117C640fBDcfCFD97d9d65": {
+            "name": "Nominex",
+            "symbol": "NMX",
+            "decimals": 18,
+            "assetId": "nmx",
+            "assetType": "nmx",
+            "protocolId": "nominex",
+            "isRebasing": false
+            },
+            "0xbA2aE424d960c26247Dd6c32edC70B295c744C43": {
+            "name": "Dogecoin",
+            "symbol": "DOGE",
+            "decimals": 8,
+            "assetId": "doge",
+            "assetType": "doge",
+            "protocolId": "dogecoin",
+            "isRebasing": false
+            },
+            "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F": {
+            "name": "AlpacaToken",
+            "symbol": "ALPACA",
+            "decimals": 18,
+            "assetId": "alpaca",
+            "assetType": "alpaca",
+            "protocolId": "alpaca-finance",
+            "isRebasing": false
+            },
+            "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94": {
+            "name": "Litecoin Token",
+            "symbol": "LTC",
+            "decimals": 18,
+            "assetId": "ltc",
+            "assetType": "ltc",
+            "protocolId": "litecoin",
+            "isRebasing": false
+            },
+            "0x4B0F1812e5Df2A09796481Ff14017e6005508003": {
+            "name": "Trust Wallet",
+            "symbol": "TWT",
+            "decimals": 18,
+            "assetId": "twt",
+            "assetType": "twt",
+            "protocolId": "trustwallet",
+            "isRebasing": false
+            },
+            "0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B": {
+            "name": "Binance Beacon ETH",
+            "symbol": "BETH",
+            "decimals": 18,
+            "assetId": "beth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7": {
+            "name": "VAI Stablecoin",
+            "symbol": "VAI",
+            "decimals": 18,
+            "assetId": "vai",
+            "assetType": "usd",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0xa9c41A46a6B3531d28d5c32F6633dd2fF05dFB90": {
+            "name": "WaultSwap",
+            "symbol": "WEX",
+            "decimals": 18,
+            "assetId": "wex",
+            "assetType": "wex",
+            "protocolId": "waultswap",
+            "isRebasing": false
+            },
+            "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95": {
+            "name": "ApeSwapFinance Banana",
+            "symbol": "BANANA",
+            "decimals": 18,
+            "assetId": "banana",
+            "assetType": "banana",
+            "protocolId": "apeswap-finance",
+            "isRebasing": false
+            },
+            "0xD23811058Eb6e7967D9a00dc3886E75610c4AbBa": {
+            "name": "KnightSwap Token",
+            "symbol": "KNIGHT",
+            "decimals": 18,
+            "assetId": "knight",
+            "assetType": "knight",
+            "protocolId": "knightswap",
+            "isRebasing": false
+            },
+            "0xCC42724C6683B7E57334c4E856f4c9965ED682bD": {
+            "name": "Matic Token",
+            "symbol": "MATIC",
+            "decimals": 18,
+            "assetId": "matic",
+            "assetType": "matic",
+            "protocolId": "polygon",
+            "isRebasing": false
+            },
+            "0x53E562b9B7E5E94b81f10e96Ee70Ad06df3D2657": {
+            "name": "BabySwap Token",
+            "symbol": "BABY",
+            "decimals": 18,
+            "assetId": "baby",
+            "assetType": "baby",
+            "protocolId": "babyswap",
+            "isRebasing": false
+            },
+            "0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A": {
+            "name": "FistToken",
+            "symbol": "FIST",
+            "decimals": 6,
+            "assetId": "fist",
+            "assetType": "fist",
+            "protocolId": "fstswap",
+            "isRebasing": false
+            },
+            "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153": {
+            "name": "Filecoin",
+            "symbol": "FIL",
+            "decimals": 18,
+            "assetId": "fil",
+            "assetType": "fil",
+            "protocolId": "filecoin",
+            "isRebasing": false
+            },
+            "0x1CE0c2827e2eF14D5C4f29a091d735A204794041": {
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "decimals": 18,
+            "assetId": "avax",
+            "assetType": "avax",
+            "protocolId": "avalanche",
+            "isRebasing": false
+            },
+            "0x30807D3b851A31d62415B8bb7Af7dCa59390434a": {
+            "name": "RadioShack",
+            "symbol": "RADIO",
+            "decimals": 18,
+            "assetId": "radio",
+            "assetType": "radio",
+            "protocolId": "radioshack",
+            "isRebasing": false
+            },
+            "0xe79a1163a95734ccFBd006cBAaba954f3e846BeB": {
+            "name": "Shack Token",
+            "symbol": "SHACK",
+            "decimals": 18,
+            "assetId": "shack",
+            "assetType": "shack",
+            "protocolId": "radioshack",
+            "isRebasing": false
+            },
+            "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF": {
+            "name": "SOLANA",
+            "symbol": "SOL",
+            "decimals": 18,
+            "assetId": "sol",
+            "assetType": "solana",
+            "protocolId": "solana",
+            "isRebasing": false
+            },
+            "0x4691937a7508860F876c9c0a2a617E7d9E945D4B": {
+            "name": "Wootrade Network",
+            "symbol": "WOO",
+            "decimals": 18,
+            "assetId": "woo",
+            "assetType": "woo",
+            "protocolId": "woo",
+            "isRebasing": false
+            },
+            "0xfE19F0B51438fd612f6FD59C1dbB3eA319f433Ba": {
+            "name": "Magic Internet Money (MIM)",
+            "symbol": "MIM",
+            "decimals": 18,
+            "assetId": "mim",
+            "assetType": "usd",
+            "protocolId": "abracadabra",
+            "isRebasing": false
+            },
+            "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D": {
+            "name": "SHIBA INU",
+            "symbol": "SHIB",
+            "decimals": 18,
+            "assetId": "shib",
+            "assetType": "shib",
+            "protocolId": "shibaswap",
+            "isRebasing": false
+            },
+            "0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5": {
+            "name": "Project Galaxy",
+            "symbol": "GAL",
+            "decimals": 18,
+            "assetId": "gal",
+            "assetType": "gal",
+            "protocolId": "galxe",
+            "isRebasing": false
+            },
+            "0xfCe146bF3146100cfe5dB4129cf6C82b0eF4Ad8c": {
+            "name": "renBTC",
+            "symbol": "renBTC",
+            "decimals": 8,
+            "assetId": "renbtc",
+            "assetType": "btc",
+            "protocolId": "ren",
+            "isRebasing": false
+            },
+            "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE": {
+            "name": "Elk",
+            "symbol": "ELK",
+            "decimals": 18,
+            "assetId": "elk",
+            "assetType": "elk",
+            "protocolId": "elk-finance",
+            "isRebasing": false
+            },
+            "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C": {
+            "name": "Elk (Old)",
+            "symbol": "oELK",
+            "decimals": 18,
+            "assetId": "oelk",
+            "assetType": "oelk",
+            "protocolId": "elk-finance",
+            "isRebasing": false
+            },
+            "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275": {
+            "name": "Liquid Staking BNB",
+            "symbol": "BNBx",
+            "decimals": 18,
+            "assetId": "bnbx",
+            "assetType": "bnb",
+            "protocolId": "stader",
+            "isRebasing": false
+            },
+            "0x4374F26F0148a6331905eDf4cD33B89d8Eed78d1": {
+            "name": "Yoshi.exchange",
+            "symbol": "YOSHI",
+            "decimals": 18,
+            "assetId": "yoshi",
+            "assetType": "yoshi",
+            "protocolId": "yoshi-exchange",
+            "isRebasing": false
+            },
+            "0xAD29AbB318791D579433D831ed122aFeAf29dcfe": {
+            "name": "Fantom",
+            "symbol": "FTM",
+            "decimals": 18,
+            "assetId": "ftm",
+            "assetType": "ftm",
+            "protocolId": "fantom",
+            "isRebasing": false
+            },
+            "0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40": {
+            "name": "Frax",
+            "symbol": "FRAX",
+            "decimals": 18,
+            "assetId": "frax",
+            "assetType": "usd",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0xe48A3d7d0Bc88d552f730B62c006bC925eadB9eE": {
+            "name": "Frax Share",
+            "symbol": "FXS",
+            "decimals": 18,
+            "assetId": "fxs",
+            "assetType": "fxs",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x64048A7eEcF3a2F1BA9e144aAc3D7dB6e58F555e": {
+            "name": "Frax Ether",
+            "symbol": "frxETH",
+            "decimals": 18,
+            "assetId": "frxeth",
+            "assetType": "eth",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x3Cd55356433C89E50DC51aB07EE0fa0A95623D53": {
+            "name": "Staked Frax Ether",
+            "symbol": "sfrxETH",
+            "decimals": 18,
+            "assetId": "sfrxeth",
+            "assetType": "eth",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5": {
+            "name": "BakeryToken",
+            "symbol": "BAKE",
+            "decimals": 18,
+            "assetId": "bake",
+            "assetType": "bake",
+            "protocolId": "bakery-swap",
+            "isRebasing": false
+            },
+            "0xCa3F508B8e4Dd382eE878A314789373D80A5190A": {
+            "name": "beefy.finance",
+            "symbol": "BIFI",
+            "decimals": 18,
+            "assetId": "bifi",
+            "assetType": "bifi",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x7828ff4ABA7aAb932D8407C78324B069D24284c9": {
+            "name": "MooBIFIV2",
+            "symbol": "mooBIFIV2",
+            "decimals": 18,
+            "assetId": "moobifiv2",
+            "assetType": "bifi",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x6BE4741AB0aD233e4315a10bc783a7B923386b71": {
+            "name": "Moo Venus BNB",
+            "symbol": "mooVenusBNB",
+            "decimals": 18,
+            "assetId": "moovenusbnb",
+            "assetType": "bnb",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x725E14C3106EBf4778e01eA974e492f909029aE8": {
+            "name": "Moo Valas ETH",
+            "symbol": "mooValasETH",
+            "decimals": 18,
+            "assetId": "moovalaseth",
+            "assetType": "eth",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x557233E794d1a5FbCc6D26dca49147379ea5073c": {
+            "name": "Alita Token",
+            "symbol": "ALI",
+            "decimals": 18,
+            "assetId": "ali",
+            "assetType": "ali",
+            "protocolId": "alita",
+            "isRebasing": false
+            },
+            "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0": {
+            "name": "Axie Infinity Shard",
+            "symbol": "AXS",
+            "decimals": 18,
+            "assetId": "axs",
+            "assetType": "axs",
+            "protocolId": "axie-infinity",
+            "isRebasing": false
+            },
+            "0x68E374F856bF25468D365E539b700b648Bf94B67": {
+            "name": "Mist",
+            "symbol": "MIST",
+            "decimals": 18,
+            "assetId": "mist",
+            "assetType": "mist",
+            "protocolId": "mist",
+            "isRebasing": false
+            },
+            "0xfb6115445Bff7b52FeB98650C87f44907E58f802": {
+            "name": "Aave Token",
+            "symbol": "AAVE",
+            "decimals": 18,
+            "assetId": "aave",
+            "assetType": "aave",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0x833F307aC507D47309fD8CDD1F835BeF8D702a93": {
+            "name": "REVV",
+            "symbol": "REVV",
+            "decimals": 18,
+            "assetId": "revv",
+            "assetType": "revv",
+            "protocolId": "revv",
+            "isRebasing": false
+            },
+            "0x111111111117dC0aa78b770fA6A738034120C302": {
+            "name": "1INCH Token",
+            "symbol": "1INCH",
+            "decimals": 18,
+            "assetId": "1inch",
+            "assetType": "1inch",
+            "protocolId": "1inch",
+            "isRebasing": false
+            },
+            "0x4197C6EF3879a08cD51e5560da5064B773aa1d29": {
+            "name": "ACryptoS",
+            "symbol": "ACS",
+            "decimals": 18,
+            "assetId": "acs",
+            "assetType": "acs",
+            "protocolId": "acryptos",
+            "isRebasing": false
+            },
+            "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2": {
+            "name": "DODO bird",
+            "symbol": "DODO",
+            "decimals": 18,
+            "assetId": "dodo",
+            "assetType": "dodo",
+            "protocolId": "dodo",
+            "isRebasing": false
+            },
+            "0xAf41054C1487b0e5E2B9250C0332eCBCe6CE9d71": {
+            "name": "Ellipsis X",
+            "symbol": "EPX",
+            "decimals": 18,
+            "assetId": "epx",
+            "assetType": "epx",
+            "protocolId": "ellipsis",
+            "isRebasing": false
+            },
+            "0xA7f552078dcC247C2684336020c03648500C6d9F": {
+            "name": "Ellipsis",
+            "symbol": "EPS",
+            "decimals": 18,
+            "assetId": "eps",
+            "assetType": "eps",
+            "protocolId": "ellipsis",
+            "isRebasing": false
+            },
+            "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377": {
+            "name": "Mobox",
+            "symbol": "MBOX",
+            "decimals": 18,
+            "assetId": "mbox",
+            "assetType": "mbox",
+            "protocolId": "mobox",
+            "isRebasing": false
+            },
+            "0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb": {
+            "name": "SafePal Token",
+            "symbol": "SFP",
+            "decimals": 18,
+            "assetId": "sfp",
+            "assetType": "sfp",
+            "protocolId": "safepal",
+            "isRebasing": false
+            },
+            "0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3": {
+            "name": "Mask Network",
+            "symbol": "MASK",
+            "decimals": 18,
+            "assetId": "mask",
+            "assetType": "mask",
+            "protocolId": "mask-network",
+            "isRebasing": false
+            },
+            "0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97": {
+            "name": "BinaryX",
+            "symbol": "BNX",
+            "decimals": 18,
+            "assetId": "bnx",
+            "assetType": "bnx",
+            "protocolId": "binaryx",
+            "isRebasing": false
+            },
+            "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63": {
+            "name": "NEAR Protocol",
+            "symbol": "NEAR",
+            "decimals": 18,
+            "assetId": "near",
+            "assetType": "near",
+            "protocolId": "near-protocol",
+            "isRebasing": false
+            },
+            "0x0Eb3a705fc54725037CC9e008bDede697f62F335": {
+            "name": "Cosmos Token",
+            "symbol": "ATOM",
+            "decimals": 18,
+            "assetId": "atom",
+            "assetType": "atom",
+            "protocolId": "cosmos",
+            "isRebasing": false
+            },
+            "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1": {
+            "name": "Wombat Token",
+            "symbol": "WOM",
+            "decimals": 18,
+            "assetId": "wom",
+            "assetType": "wom",
+            "protocolId": "wombat-exchange",
+            "isRebasing": false
+            },
+            "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63": {
+            "name": "Venus",
+            "symbol": "XVS",
+            "decimals": 18,
+            "assetId": "xvs",
+            "assetType": "xvs",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0xA07c5b74C9B40447a954e1466938b865b6BBea36": {
+            "name": "Venus BNB",
+            "symbol": "vBNB",
+            "decimals": 8,
+            "assetId": "vbnb",
+            "assetType": "bnb",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0xf508fCD89b8bd15579dc79A6827cB4686A3592c8": {
+            "name": "Venus ETH",
+            "symbol": "vETH",
+            "decimals": 8,
+            "assetId": "veth",
+            "assetType": "eth",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0x882C173bC7Ff3b7786CA16dfeD3DFFfb9Ee7847B": {
+            "name": "Venus BTC",
+            "symbol": "vBTC",
+            "decimals": 8,
+            "assetId": "vbtc",
+            "assetType": "btc",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0xecA88125a5ADbe82614ffC12D0DB554E2e2867C8": {
+            "name": "Venus USDC",
+            "symbol": "vUSDC",
+            "decimals": 8,
+            "assetId": "vusdc",
+            "assetType": "usd",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0xfD5840Cd36d94D7229439859C0112a4185BC0255": {
+            "name": "Venus USDT",
+            "symbol": "vUSDT",
+            "decimals": 8,
+            "assetId": "vusdt",
+            "assetType": "usd",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0x95c78222B3D6e262426483D42CfA53685A67Ab9D": {
+            "name": "Venus BUSD",
+            "symbol": "vBUSD",
+            "decimals": 8,
+            "assetId": "vbusd",
+            "assetType": "usd",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0x86aC3974e2BD0d60825230fa6F355fF11409df5c": {
+            "name": "Venus CAKE",
+            "symbol": "vCAKE",
+            "decimals": 8,
+            "assetId": "vcake",
+            "assetType": "cake",
+            "protocolId": "venus",
+            "isRebasing": false
+            },
+            "0xC632F90affeC7121120275610BF17Df9963F181c": {
+            "name": "DEBT",
+            "symbol": "DEBT",
+            "decimals": 8,
+            "assetId": "debt",
+            "assetType": "debt",
+            "protocolId": "the-debt-box",
+            "isRebasing": false
+            },
+            "0x477bC8d23c634C154061869478bce96BE6045D12": {
+            "name": "SeedifyFund",
+            "symbol": "SFUND",
+            "decimals": 18,
+            "assetId": "sfund",
+            "assetType": "sfund",
+            "protocolId": "seedify-fund",
+            "isRebasing": false
+            },
+            "0x4A9A2b2b04549C3927dd2c9668A5eF3fCA473623": {
+            "name": "dForce",
+            "symbol": "DF",
+            "decimals": 18,
+            "assetId": "df",
+            "assetType": "df",
+            "protocolId": "dforce",
+            "isRebasing": false
+            },
+            "0xB72bA371c900aa68bb9Fa473e93CfbE212030fCb": {
+            "name": "Pandora Spirit",
+            "symbol": "PSR",
+            "decimals": 18,
+            "assetId": "psr",
+            "assetType": "psr",
+            "protocolId": "pandora-spirit",
+            "isRebasing": false
+            },
+            "0xB5102CeE1528Ce2C760893034A4603663495fD72": {
+            "name": "dForce USD",
+            "symbol": "USX",
+            "decimals": 18,
+            "assetId": "usx",
+            "assetType": "usd",
+            "protocolId": "dforce",
+            "isRebasing": false
+            },
+            "0xe7c9C6bc87B86f9E5b57072F907EE6460B593924": {
+            "name": "TOWER",
+            "symbol": "TOWER",
+            "decimals": 18,
+            "assetId": "tower",
+            "assetType": "tower",
+            "protocolId": "crazy-defense-heroes",
+            "isRebasing": false
+            },
+            "0x84e9a6F9D240FdD33801f7135908BfA16866939A": {
+            "name": "GAMEE",
+            "symbol": "GMEE",
+            "decimals": 18,
+            "assetId": "gmee",
+            "assetType": "gmee",
+            "protocolId": "gamee",
+            "isRebasing": false
+            },
+            "0x198abB2D13fAA2e52e577D59209B5c23c20CD6B3": {
+            "name": "BambooDeFi",
+            "symbol": "BAMBOO",
+            "decimals": 18,
+            "assetId": "bamboo",
+            "assetType": "bamboo",
+            "protocolId": "bamboo-defi",
+            "isRebasing": false
+            },
+            "0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096": {
+            "name": "Nerve",
+            "symbol": "NRV",
+            "decimals": 18,
+            "assetId": "nrv",
+            "assetType": "nrv",
+            "protocolId": "nerve-finance",
+            "isRebasing": false
+            },
+            "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f": {
+            "name": "Burger Swap",
+            "symbol": "BURGER",
+            "decimals": 18,
+            "assetId": "burger",
+            "assetType": "burger",
+            "protocolId": "burger-swap",
+            "isRebasing": false
+            },
+            "0x5A41F637C3f7553dBa6dDC2D3cA92641096577ea": {
+            "name": "JulSwap",
+            "symbol": "JulD",
+            "decimals": 18,
+            "assetId": "juld",
+            "assetType": "juld",
+            "protocolId": "julswap",
+            "isRebasing": false
+            },
+            "0x44754455564474A89358B2C2265883DF993b12F0": {
+            "name": "ZeroSwapToken",
+            "symbol": "ZEE",
+            "decimals": 18,
+            "assetId": "zee",
+            "assetType": "zee",
+            "protocolId": "zeroswap",
+            "isRebasing": false
+            },
+            "0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86": {
+            "name": "BFG Token",
+            "symbol": "BFG",
+            "decimals": 18,
+            "assetId": "bfg",
+            "assetType": "bfg",
+            "protocolId": "betfury",
+            "isRebasing": false
+            },
+            "0x12BB890508c125661E03b09EC06E404bc9289040": {
+            "name": "Radio Caca V2",
+            "symbol": "RACA",
+            "decimals": 18,
+            "assetId": "raca",
+            "assetType": "raca",
+            "protocolId": "radio-caca",
+            "isRebasing": false
+            },
+            "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5": {
+            "name": "IoTeX Network",
+            "symbol": "IOTX",
+            "decimals": 18,
+            "assetId": "iotx",
+            "assetType": "iotx",
+            "protocolId": "iotex",
+            "isRebasing": false
+            },
+            "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe": {
+            "name": "Elrond",
+            "symbol": "EGLD",
+            "decimals": 18,
+            "assetId": "egld",
+            "assetType": "egld",
+            "protocolId": "elrond",
+            "isRebasing": false
+            },
+            "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B": {
+            "name": "BitTorrent",
+            "symbol": "BTT",
+            "decimals": 18,
+            "assetId": "btt",
+            "assetType": "btt",
+            "protocolId": "bittorrent",
+            "isRebasing": false
+            },
+            "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b": {
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "assetId": "stg",
+            "assetType": "stg",
+            "protocolId": "stargate",
+            "isRebasing": false
+            },
+            "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d": {
+            "name": "Mai Stablecoin",
+            "symbol": "MAI",
+            "decimals": 18,
+            "assetId": "mimatic",
+            "assetType": "usd",
+            "protocolId": "qi-dao",
+            "isRebasing": false
+            },
+            "0x3d6545b08693daE087E957cb1180ee38B9e3c25E": {
+            "name": "Ethereum Classic",
+            "symbol": "ETC",
+            "decimals": 18,
+            "assetId": "etc",
+            "assetType": "etc",
+            "protocolId": "ethereum-classic",
+            "isRebasing": false
+            },
+            "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf": {
+            "name": "Bitcoin Cash Token",
+            "symbol": "BCH",
+            "decimals": 18,
+            "assetId": "bch",
+            "assetType": "bch",
+            "protocolId": "bitcoin-cash",
+            "isRebasing": false
+            },
+            "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787": {
+            "name": "Zilliqa",
+            "symbol": "ZIL",
+            "decimals": 12,
+            "assetId": "zil",
+            "assetType": "zil",
+            "protocolId": "zilliqa",
+            "isRebasing": false
+            },
+            "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6": {
+            "name": "EOS Token",
+            "symbol": "EOS",
+            "decimals": 18,
+            "assetId": "eos",
+            "assetType": "eos",
+            "protocolId": "eos",
+            "isRebasing": false
+            },
+            "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb": {
+            "name": "Zcash Token",
+            "symbol": "ZEC",
+            "decimals": 18,
+            "assetId": "zec",
+            "assetType": "zec",
+            "protocolId": "zcash",
+            "isRebasing": false
+            },
+            "0x9Ac983826058b8a9C7Aa1C9171441191232E8404": {
+            "name": "Synthetix Network Token",
+            "symbol": "SNX",
+            "decimals": 18,
+            "assetId": "snx",
+            "assetType": "snx",
+            "protocolId": "synthetix",
+            "isRebasing": false
+            },
+            "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b": {
+            "name": "Kyber Network Crystal",
+            "symbol": "KNC",
+            "decimals": 18,
+            "assetId": "knc",
+            "assetType": "knc",
+            "protocolId": "kyber",
+            "isRebasing": false
+            },
+            "0xAC51066d7bEC65Dc4589368da368b212745d63E8": {
+            "name": "ALICE",
+            "symbol": "ALICE",
+            "decimals": 6,
+            "assetId": "alice",
+            "assetType": "alice",
+            "protocolId": "my-neighbor-alice",
+            "isRebasing": false
+            },
+            "0x101d82428437127bF1608F699CD651e6Abf9766E": {
+            "name": "Basic Attention Token",
+            "symbol": "BAT",
+            "decimals": 18,
+            "assetId": "bat",
+            "assetType": "bat",
+            "protocolId": "brave",
+            "isRebasing": false
+            },
+            "0xF21768cCBC73Ea5B6fd3C687208a7c2def2d966e": {
+            "name": "Reef.finance",
+            "symbol": "REEF",
+            "decimals": 18,
+            "assetId": "reef",
+            "assetType": "reef",
+            "protocolId": "reef",
+            "isRebasing": false
+            },
+            "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A": {
+            "name": "Swipe",
+            "symbol": "SXP",
+            "decimals": 18,
+            "assetId": "sxp",
+            "assetType": "sxp",
+            "protocolId": "swipe",
+            "isRebasing": false
+            },
+            "0x9C65AB58d8d978DB963e63f2bfB7121627e3a739": {
+            "name": "MDX Token",
+            "symbol": "MDX",
+            "decimals": 18,
+            "assetId": "mdx",
+            "assetType": "mdx",
+            "protocolId": "mdex",
+            "isRebasing": false
+            },
+            "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1": {
+            "name": "Green Metaverse Token",
+            "symbol": "GMT",
+            "decimals": 8,
+            "assetId": "gmt",
+            "assetType": "gmt",
+            "protocolId": "stepn",
+            "isRebasing": false
+            },
+            "0x431e0cD023a32532BF3969CddFc002c00E98429d": {
+            "name": "Chainport.io-Peg XCAD Token",
+            "symbol": "XCAD",
+            "decimals": 18,
+            "assetId": "xcad",
+            "assetType": "xcad",
+            "protocolId": "xcad-network",
+            "isRebasing": false
+            },
+            "0xECa41281c24451168a37211F0bc2b8645AF45092": {
+            "name": "TokenPocket Token",
+            "symbol": "TPT",
+            "decimals": 4,
+            "assetId": "tpt",
+            "assetType": "tpt",
+            "protocolId": "token-pocket",
+            "isRebasing": false
+            },
+            "0xaEC945e04baF28b135Fa7c640f624f8D90F1C3a6": {
+            "name": "Coin98",
+            "symbol": "C98",
+            "decimals": 18,
+            "assetId": "c98",
+            "assetType": "c98",
+            "protocolId": "coin98",
+            "isRebasing": false
+            },
+            "0x23c5D1164662758b3799103Effe19cC064d897D6": {
+            "name": "Aura",
+            "symbol": "AURA",
+            "decimals": 6,
+            "assetId": "aura-network",
+            "assetType": "aura-network",
+            "protocolId": "aura-network",
+            "isRebasing": false
+            },
+            "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8": {
+            "name": "Compound",
+            "symbol": "COMP",
+            "decimals": 18,
+            "assetId": "comp",
+            "assetType": "comp",
+            "protocolId": "compound",
+            "isRebasing": false
+            },
+            "0x76A797A59Ba2C17726896976B7B3747BfD1d220f": {
+            "name": "Wrapped TON Coin",
+            "symbol": "TONCOIN",
+            "decimals": 9,
+            "assetId": "toncoin",
+            "assetType": "toncoin",
+            "protocolId": "the-open-network",
+            "isRebasing": false
+            },
+            "0xB9d35811424600fa9E8cD62A0471fBd025131cb8": {
+            "name": "YES WORLD",
+            "symbol": "YES",
+            "decimals": 18,
+            "assetId": "yes",
+            "assetType": "yes",
+            "protocolId": "yes-world",
+            "isRebasing": false
+            },
+            "0xf307910A4c7bbc79691fD374889b36d8531B08e3": {
+            "name": "Ankr Network",
+            "symbol": "ANKR",
+            "decimals": 18,
+            "assetId": "ankr",
+            "assetType": "ankr",
+            "protocolId": "ankr",
+            "isRebasing": false
+            },
+            "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5": {
+            "name": "Hay Destablecoin",
+            "symbol": "HAY",
+            "decimals": 18,
+            "assetId": "hay",
+            "assetType": "usd",
+            "protocolId": "helio-protocol",
+            "isRebasing": false
+            },
+            "0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63": {
+            "name": "Highstreet Token",
+            "symbol": "HIGH",
+            "decimals": 18,
+            "assetId": "high",
+            "assetType": "high",
+            "protocolId": "highstreet",
+            "isRebasing": false
+            },
+            "0x1B239ABe619e74232c827FBE5E49a4C072bD869D": {
+            "name": "Gyro",
+            "symbol": "GYRO",
+            "decimals": 9,
+            "assetId": "gyro",
+            "assetType": "gyro",
+            "protocolId": "gyro",
+            "isRebasing": false
+            },
+            "0x60322971a672B81BccE5947706D22c19dAeCf6Fb": {
+            "name": "MarsDAO",
+            "symbol": "MDAO",
+            "decimals": 18,
+            "assetId": "mdao",
+            "assetType": "mdao",
+            "protocolId": "marsdao",
+            "isRebasing": false
+            },
+            "0x2F29Bc0FFAF9bff337b31CBe6CB5Fb3bf12e5840": {
+            "name": "Dola USD Stablecoin",
+            "symbol": "DOLA",
+            "decimals": 18,
+            "assetId": "dola",
+            "assetType": "usd",
+            "protocolId": "inverse-finance",
+            "isRebasing": false
+            },
+            "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07": {
+            "name": "JoeToken",
+            "symbol": "JOE",
+            "decimals": 18,
+            "assetId": "joe",
+            "assetType": "joe",
+            "protocolId": "trader-joe",
+            "isRebasing": false
+            },
+            "0x3e0a7C7dB7bB21bDA290A80c9811DE6d47781671": {
+            "name": "BetSwirl Token",
+            "symbol": "BETS",
+            "decimals": 18,
+            "assetId": "bets",
+            "assetType": "bets",
+            "protocolId": "betswirl",
+            "isRebasing": false
+            },
+            "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11": {
+            "name": "THENA",
+            "symbol": "THE",
+            "decimals": 18,
+            "assetId": "the",
+            "assetType": "the",
+            "protocolId": "thena",
+            "isRebasing": false
+            },
+            "0x2dfF88A56767223A5529eA5960Da7A3F5f766406": {
+            "name": "SPACE ID",
+            "symbol": "ID",
+            "decimals": 18,
+            "assetId": "id",
+            "assetType": "id",
+            "protocolId": "space-id",
+            "isRebasing": false
+            },
+            "0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149": {
+            "name": "Level Token",
+            "symbol": "LVL",
+            "decimals": 18,
+            "assetId": "lvl",
+            "assetType": "lvl",
+            "protocolId": "level",
+            "isRebasing": false
+            },
+            "0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa": {
+            "name": "Magpie Token",
+            "symbol": "MGP",
+            "decimals": 18,
+            "assetId": "mgp",
+            "assetType": "mgp",
+            "protocolId": "magpie",
+            "isRebasing": false
+            },
+            "0xe80772Eaf6e2E18B651F160Bc9158b2A5caFCA65": {
+            "name": "USD+",
+            "symbol": "USD+",
+            "decimals": 6,
+            "assetId": "usd-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0x5335E87930b410b8C5BB4D43c3360ACa15ec0C8C": {
+            "name": "USDT+",
+            "symbol": "USDT+",
+            "decimals": 18,
+            "assetId": "usdt-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
+            "name": "BOB",
+            "symbol": "BOB",
+            "decimals": 18,
+            "assetId": "bob",
+            "assetType": "usd",
+            "protocolId": "zkbob",
+            "isRebasing": false
+            },
+            "0x5b17b4d5e4009B5C43e3e3d63A5229F794cBA389": {
+            "name": "ACryptoS(I)",
+            "symbol": "ACSI",
+            "decimals": 18,
+            "assetId": "acsi",
+            "assetType": "acsi",
+            "protocolId": "acryptosi",
+            "isRebasing": false
+            },
+            "0x34d4F4459c1b529BEbE1c426F1e584151BE2C1e5": {
+            "name": "Radiant interest bearing BTCB",
+            "symbol": "rBTCB",
+            "decimals": 18,
+            "assetId": "radiant-wbtc",
+            "assetType": "btc",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x4Ff2DD7c6435789E0BB56B0553142Ad00878a004": {
+            "name": "Radiant interest bearing USDT",
+            "symbol": "rUSDT",
+            "decimals": 18,
+            "assetId": "radiant-usdt",
+            "assetType": "usd",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x89d763e8532D256a3e3e60c1C218Ac71E71cF664": {
+            "name": "Radiant interest bearing BUSD",
+            "symbol": "rBUSD",
+            "decimals": 18,
+            "assetId": "radiant-busd",
+            "assetType": "usd",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x3bDCEf9e656fD9D03eA98605946b4fbF362C342b": {
+            "name": "Radiant interest bearing USDC",
+            "symbol": "rUSDC",
+            "decimals": 18,
+            "assetId": "radiant-usdc",
+            "assetType": "usd",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x455a281D508B4e34d55b31AC2e4579BD9b77cA8E": {
+            "name": "Radiant interest bearing WETH",
+            "symbol": "rWETH",
+            "decimals": 18,
+            "assetId": "radiant-weth",
+            "assetType": "eth",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x58b0BB56CFDfc5192989461dD43568bcfB2797Db": {
+            "name": "Radiant interest bearing WBNB",
+            "symbol": "rWBNB",
+            "decimals": 18,
+            "assetId": "radiant-wbnb",
+            "assetType": "bnb",
+            "protocolId": "radiant",
+            "isRebasing": true
+            },
+            "0x2952beb1326acCbB5243725bd4Da2fC937BCa087": {
+            "name": "Wrapped USDR",
+            "symbol": "wUSDR",
+            "decimals": 9,
+            "assetId": "wusdr",
+            "assetType": "usd",
+            "protocolId": "tangible",
+            "isRebasing": false
+            },
+            "0x6ad9E9c098a45B2B41b519119C31c3DcB02ACcB2": {
+            "name": "PLAYZAP",
+            "symbol": "PZP",
+            "decimals": 18,
+            "assetId": "pzp",
+            "assetType": "pzp",
+            "protocolId": "playzap",
+            "isRebasing": false
+            },
+            "0x11A38e06699b238D6D9A0C7A01f3AC63a07ad318": {
+            "name": "USDFI",
+            "symbol": "USDFI",
+            "decimals": 18,
+            "assetId": "usdfi",
+            "assetType": "usdfi",
+            "protocolId": "usdfi",
+            "isRebasing": false
+            },
+            "0xa3870fbBeb730BA99e4107051612af3465CA9F5e": {
+            "name": "STABLE",
+            "symbol": "STABLE",
+            "decimals": 18,
+            "assetId": "usdfi",
+            "assetType": "usdfi",
+            "protocolId": "usdfi",
+            "isRebasing": false
+            },
+            "0xd691d9a68C887BDF34DA8c36f63487333ACfD103": {
+            "name": "Maverick Token",
+            "symbol": "MAV",
+            "decimals": 18,
+            "assetId": "mav",
+            "assetType": "mav",
+            "protocolId": "maverick",
+            "isRebasing": false
+            },
+            "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827": {
+            "name": "Ankr Staked BNB",
+            "symbol": "ankrBNB",
+            "decimals": 18,
+            "assetId": "ankrbnb",
+            "assetType": "bnb",
+            "protocolId": "ankr",
+            "isRebasing": false
+            },
+            "0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F": {
+            "name": "SmarDex Token",
+            "symbol": "SDEX",
+            "decimals": 18,
+            "assetId": "sdex",
+            "assetType": "sdex",
+            "protocolId": "smardex",
+            "isRebasing": false
+            },
+            "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89": {
+            "name": "EURA",
+            "symbol": "EURA",
+            "decimals": 18,
+            "assetId": "eura",
+            "assetType": "euro",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x004626A008B1aCdC4c74ab51644093b155e59A23": {
+            "name": "Staked EURA",
+            "symbol": "stEUR",
+            "decimals": 18,
+            "assetId": "steur",
+            "assetType": "euro",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x0000206329b97DB379d5E1Bf586BbDB969C63274": {
+            "name": "USDA",
+            "symbol": "USDA",
+            "decimals": 18,
+            "assetId": "usda",
+            "assetType": "usd",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776": {
+            "name": "Staked USDA",
+            "symbol": "stUSD",
+            "decimals": 18,
+            "assetId": "stusd",
+            "assetType": "usd",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0xa2B726B1145A4773F68593CF171187d8EBe4d495": {
+            "name": "Injective Token",
+            "symbol": "INJ",
+            "decimals": 18,
+            "assetId": "inj",
+            "assetType": "inj",
+            "protocolId": "injective-protocol",
+            "isRebasing": false
+            },
+            "0x336f374198c872Ba760e85af9c6331C3c5A535d3": {
+            "name": "LIF3",
+            "symbol": "LIF3",
+            "decimals": 18,
+            "assetId": "lif3",
+            "assetType": "lif3",
+            "protocolId": "lif3",
+            "isRebasing": false
+            },
+            "0x0c08638473CAfbCa3beb113616A1871F4bfaD4f9": {
+            "name": "LSHARE",
+            "symbol": "LSHARE",
+            "decimals": 18,
+            "assetId": "lshare",
+            "assetType": "lshare",
+            "protocolId": "lif3",
+            "isRebasing": false
+            },
+            "0x2d2567DeC25c9795117228aDC7FD58116D2E310C": {
+            "name": "SquadSwap",
+            "symbol": "SQUAD",
+            "decimals": 18,
+            "assetId": "squad",
+            "assetType": "squad",
+            "protocolId": "squadswap",
+            "isRebasing": false
+            },
+            "0x985051A53a8Ab90670540C2e7D537013FD5ae5E4": {
+            "name": "Wrapped FDR",
+            "symbol": "wFDR",
+            "decimals": 8,
+            "assetId": "wfdr",
+            "assetType": "wfdr",
+            "protocolId": "wfdr",
+            "isRebasing": false
+            },
+            "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+            "name": "Renzo Restaked ETH",
+            "symbol": "ezETH",
+            "decimals": 18,
+            "assetId": "ezeth",
+            "assetType": "eth",
+            "protocolId": "renzo",
+            "isRebasing": false
+            },
+            "0xacb2d47827C9813AE26De80965845D80935afd0B": {
+            "name": "MacaronSwap Token",
+            "symbol": "MCRN",
+            "decimals": 18,
+            "assetId": "mcrn",
+            "assetType": "mcrn",
+            "protocolId": "macaronswap",
+            "isRebasing": false
+            },
+            "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A": {
+            "name": "Wrapped eETH",
+            "symbol": "weETH",
+            "decimals": 18,
+            "assetId": "weeth",
+            "assetType": "eth",
+            "protocolId": "ether-fi",
+            "isRebasing": false
+            },
+            "0xC96dE26018A54D51c097160568752c4E3BD6C364": {
+            "name": "Fire Bitcoin",
+            "symbol": "FBTC",
+            "decimals": 8,
+            "assetId": "fbtc",
+            "assetType": "btc",
+            "protocolId": "ignition",
+            "isRebasing": false
+            }
+        }
+    },
+
+    "137": {
+        "tokenMap": {
+            "0x0000000000000000000000000000000000000000": {
+            "name": "Matic",
+            "symbol": "MATIC",
+            "decimals": 18,
+            "assetId": "matic",
+            "assetType": "matic",
+            "protocolId": "native",
+            "isRebasing": false
+            },
+            "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270": {
+            "name": "Wrapped Matic",
+            "symbol": "WMATIC",
+            "decimals": 18,
+            "assetId": "wmatic",
+            "assetType": "matic",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0x4c28f48448720e9000907BC2611F73022fdcE1fA": {
+            "name": "WMATIC 2",
+            "symbol": "WMATIC 2",
+            "decimals": 18,
+            "assetId": "wmatic",
+            "assetType": "matic",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6": {
+            "name": "(PoS) Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "assetId": "wbtc",
+            "assetType": "btc",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0xDBf31dF14B66535aF65AaC99C32e9eA844e14501": {
+            "name": "renBTC (renBTC)",
+            "symbol": "renBTC",
+            "decimals": 8,
+            "assetId": "renbtc",
+            "assetType": "btc",
+            "protocolId": "ren",
+            "isRebasing": false
+            },
+            "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+            "name": "Bridged USDC",
+            "symbol": "USDC.e",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+            },
+            "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359": {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "assetId": "usdc",
+            "assetType": "usd",
+            "protocolId": "circle",
+            "isRebasing": false
+            },
+            "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "assetId": "weth",
+            "assetType": "eth",
+            "protocolId": null,
+            "isRebasing": false
+            },
+            "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063": {
+            "name": "(PoS) Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "assetId": "dai",
+            "assetType": "usd",
+            "protocolId": "maker-dao",
+            "isRebasing": false
+            },
+            "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+            "name": "(PoS) Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "assetId": "usdt",
+            "assetType": "usd",
+            "protocolId": "tether",
+            "isRebasing": false
+            },
+            "0xb33EaAd8d922B1083446DC23f610c2567fB5180f": {
+            "name": "Uniswap (PoS)",
+            "symbol": "UNI",
+            "decimals": 18,
+            "assetId": "uni",
+            "assetType": "uni",
+            "protocolId": "uniswap",
+            "isRebasing": false
+            },
+            "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39": {
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "decimals": 18,
+            "assetId": "link",
+            "assetType": "link",
+            "protocolId": "chainlink",
+            "isRebasing": false
+            },
+            "0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f": {
+            "name": "Must",
+            "symbol": "MUST",
+            "decimals": 18,
+            "assetId": "must",
+            "assetType": "must",
+            "protocolId": "cometh",
+            "isRebasing": false
+            },
+            "0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89": {
+            "name": "Frax",
+            "symbol": "FRAX",
+            "decimals": 18,
+            "assetId": "frax",
+            "assetType": "usd",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x104592a158490a9228070E0A8e5343B499e125D0": {
+            "name": "Frax (PoS)",
+            "symbol": "FRAX (PoS)",
+            "decimals": 18,
+            "assetId": "frax",
+            "assetType": "usd",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x1a3acf6D19267E2d3e7f898f42803e90C9219062": {
+            "name": "Frax Share",
+            "symbol": "FXS",
+            "decimals": 18,
+            "assetId": "fxs",
+            "assetType": "fxs",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0x3e121107F6F22DA4911079845a470757aF4e1A1b": {
+            "name": "Frax Share (PoS)",
+            "symbol": "FXS (PoS)",
+            "decimals": 18,
+            "assetId": "fxs-pos",
+            "assetType": "fxs-pos",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0xEe327F889d5947c1dc1934Bb208a1E792F953E96": {
+            "name": "Frax Ether",
+            "symbol": "frxETH",
+            "decimals": 18,
+            "assetId": "frxeth",
+            "assetType": "eth",
+            "protocolId": "frax",
+            "isRebasing": false
+            },
+            "0xD6DF932A45C0f255f85145f286eA0b292B21C90B": {
+            "name": "Aave (PoS)",
+            "symbol": "AAVE",
+            "decimals": 18,
+            "assetId": "aave",
+            "assetType": "aave",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32": {
+            "name": "Telcoin (PoS)",
+            "symbol": "TEL",
+            "decimals": 2,
+            "assetId": "tel",
+            "assetType": "tel",
+            "protocolId": "telcoin",
+            "isRebasing": false
+            },
+            "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1": {
+            "name": "miMATIC",
+            "symbol": "miMATIC",
+            "decimals": 18,
+            "assetId": "mimatic",
+            "assetType": "usd",
+            "protocolId": "qi-dao",
+            "isRebasing": false
+            },
+            "0x172370d5Cd63279eFa6d502DAB29171933a610AF": {
+            "name": "CRV (PoS)",
+            "symbol": "CRV",
+            "decimals": 18,
+            "assetId": "crv",
+            "assetType": "crv",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xc4Ce1D6F5D98D65eE25Cf85e9F2E9DcFEe6Cb5d6": {
+            "name": "Curve.Fi USD Stablecoin (PoS)",
+            "symbol": "crvUSD",
+            "decimals": 18,
+            "assetId": "crvusd",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171": {
+            "name": "Curve.fi amDAI/amUSDC/amUSDT",
+            "symbol": "am3CRV",
+            "decimals": 18,
+            "assetId": "am3crv",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xa138341185a9D0429B0021A11FB717B225e13e1F": {
+            "name": "Curve.fi Factory USD Metapool: USDR+3Pool",
+            "symbol": "USDR3CRV-f",
+            "decimals": 18,
+            "assetId": "usdr3crvf",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x447646e84498552e62eCF097Cc305eaBFFF09308": {
+            "name": "Curve.fi Factory USD Metapool: MAI+3Pool",
+            "symbol": "MAI+3Pool3CRV-f",
+            "decimals": 18,
+            "assetId": "mai3pool3crvf",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xAd326c253A84e9805559b73A08724e11E49ca651": {
+            "name": "Curve.fi Factory Plain Pool: 4eur",
+            "symbol": "4eur-f",
+            "decimals": 18,
+            "assetId": "4eurf",
+            "assetType": "euro",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xAdf577B69eEaC9Df325536cf1aF106372f2Da263": {
+            "name": "Curve.fi Factory USD Metapool: curve.fi TUSD/am3CRV Pool",
+            "symbol": "TUSDam3CRV3CRV-f",
+            "decimals": 18,
+            "assetId": "tusdam3crv3crvf",
+            "assetType": "usd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0xdAD97F7713Ae9437fa9249920eC8507e5FbB23d3": {
+            "name": "Curve USD-BTC-ETH",
+            "symbol": "crvUSDBTCETH",
+            "decimals": 18,
+            "assetId": "crvusdbtceth",
+            "assetType": "crvusdbtceth",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x600743B1d8A96438bD46836fD34977a00293f6Aa": {
+            "name": "Curve EURT-3Crv",
+            "symbol": "crvEURTUSD",
+            "decimals": 18,
+            "assetId": "crveurtusd",
+            "assetType": "crveurtusd",
+            "protocolId": "curve",
+            "isRebasing": false
+            },
+            "0x580A84C73811E1839F75d86d75d88cCa0c241fF4": {
+            "name": "Qi Dao",
+            "symbol": "QI",
+            "decimals": 18,
+            "assetId": "qi-mai",
+            "assetType": "qi-mai",
+            "protocolId": "qi-dao",
+            "isRebasing": false
+            },
+            "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3": {
+            "name": "Balancer (PoS)",
+            "symbol": "BAL",
+            "decimals": 18,
+            "assetId": "bal",
+            "assetType": "bal",
+            "protocolId": "balancer",
+            "isRebasing": false
+            },
+            "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4": {
+            "name": "SOL",
+            "symbol": "SOL",
+            "decimals": 18,
+            "assetId": "sol",
+            "assetType": "solana",
+            "protocolId": "solana",
+            "isRebasing": false
+            },
+            "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756": {
+            "name": "TrueUSD (PoS)",
+            "symbol": "TUSD",
+            "decimals": 18,
+            "assetId": "tusd",
+            "assetType": "usd",
+            "protocolId": "trueusd",
+            "isRebasing": false
+            },
+            "0x50B728D8D964fd00C2d0AAD81718b71311feF68a": {
+            "name": "Synthetix Network Token (PoS)",
+            "symbol": "SNX",
+            "decimals": 18,
+            "assetId": "snx",
+            "assetType": "snx",
+            "protocolId": "synthetix",
+            "isRebasing": false
+            },
+            "0x5fe2B58c013d7601147DcdD68C143A77499f5531": {
+            "name": "Graph Token (PoS)",
+            "symbol": "GRT",
+            "decimals": 18,
+            "assetId": "grt",
+            "assetType": "grt",
+            "protocolId": "the-graph",
+            "isRebasing": false
+            },
+            "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a": {
+            "name": "SushiToken (PoS)",
+            "symbol": "SUSHI",
+            "decimals": 18,
+            "assetId": "sushi",
+            "assetType": "sushi",
+            "protocolId": "sushi",
+            "isRebasing": false
+            },
+            "0xFbdd194376de19a88118e84E279b977f165d01b8": {
+            "name": "beefy.finance",
+            "symbol": "BIFI",
+            "decimals": 18,
+            "assetId": "bifi",
+            "assetType": "bifi",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x108c7a293162Adff86DA216AB5F91e56723125dc": {
+            "name": "Moo Curve EURt",
+            "symbol": "mooCurveEURt",
+            "decimals": 18,
+            "assetId": "moocurveeurt",
+            "assetType": "euro",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0x2520D50bfD793D3C757900D81229422F70171969": {
+            "name": "Moo Convex USDR",
+            "symbol": "mooConvexUSDR",
+            "decimals": 18,
+            "assetId": "mooconvexusdr",
+            "assetType": "usd",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0xfEcf784F48125ccb7d8855cdda7C5ED6b5024Cb3": {
+            "name": "Moo Polygon BIFI",
+            "symbol": "mooPolygonBIFI",
+            "decimals": 18,
+            "assetId": "moopolygonbifi",
+            "assetType": "bifi",
+            "protocolId": "beefy-finance",
+            "isRebasing": false
+            },
+            "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4": {
+            "name": "(PoS) Decentraland MANA",
+            "symbol": "MANA",
+            "decimals": 18,
+            "assetId": "mana",
+            "assetType": "mana",
+            "protocolId": "decentraland",
+            "isRebasing": false
+            },
+            "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7": {
+            "name": "Aavegotchi GHST Token (PoS)",
+            "symbol": "GHST",
+            "decimals": 18,
+            "assetId": "ghst",
+            "assetType": "ghst",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0x3a3Df212b7AA91Aa0402B9035b098891d276572B": {
+            "name": "Fish",
+            "symbol": "FISH",
+            "decimals": 18,
+            "assetId": "fish-poly",
+            "assetType": "fish-poly",
+            "protocolId": "polycat-finance",
+            "isRebasing": false
+            },
+            "0xD86b5923F3AD7b585eD81B448170ae026c65ae9a": {
+            "name": "IRON Stablecoin",
+            "symbol": "IRON",
+            "decimals": 18,
+            "assetId": "iron",
+            "assetType": "iron",
+            "protocolId": "iron-finance",
+            "isRebasing": false
+            },
+            "0x8A953CfE442c5E8855cc6c61b1293FA648BAE472": {
+            "name": "PolyDoge",
+            "symbol": "PolyDoge",
+            "decimals": 18,
+            "assetId": "polydoge",
+            "assetType": "polydoge",
+            "protocolId": "polydoge",
+            "isRebasing": false
+            },
+            "0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97": {
+            "name": "DFYN Token (PoS)",
+            "symbol": "DFYN",
+            "decimals": 18,
+            "assetId": "dfyn",
+            "assetType": "dfyn",
+            "protocolId": "dfyn",
+            "isRebasing": false
+            },
+            "0xd78C475133731CD54daDCb430F7aAE4F03C1E660": {
+            "name": "Firebird.Finance",
+            "symbol": "HOPE",
+            "decimals": 18,
+            "assetId": "hope",
+            "assetType": "hope",
+            "protocolId": "firebird-finance",
+            "isRebasing": false
+            },
+            "0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4": {
+            "name": "Route",
+            "symbol": "ROUTE (PoS)",
+            "decimals": 18,
+            "assetId": "route",
+            "assetType": "route",
+            "protocolId": "router-protocol",
+            "isRebasing": false
+            },
+            "0x70c006878a5A50Ed185ac4C87d837633923De296": {
+            "name": "REVV",
+            "symbol": "REVV",
+            "decimals": 18,
+            "assetId": "revv",
+            "assetType": "revv",
+            "protocolId": "revv",
+            "isRebasing": false
+            },
+            "0xcf32822ff397Ef82425153a9dcb726E5fF61DCA7": {
+            "name": "GAMEE",
+            "symbol": "GMEE",
+            "decimals": 18,
+            "assetId": "gmee",
+            "assetType": "gmee",
+            "protocolId": "gamee",
+            "isRebasing": false
+            },
+            "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C": {
+            "name": "Kyber Network Crystal v2 (PoS)",
+            "symbol": "KNC",
+            "decimals": 18,
+            "assetId": "knc",
+            "assetType": "knc",
+            "protocolId": "kyber",
+            "isRebasing": false
+            },
+            "0x613a489785C95afEB3b404CC41565cCff107B6E0": {
+            "name": "RadioShack",
+            "symbol": "RADIO",
+            "decimals": 18,
+            "assetId": "radio",
+            "assetType": "radio",
+            "protocolId": "radioshack",
+            "isRebasing": false
+            },
+            "0x430EF9263E76DAE63c84292C3409D61c598E9682": {
+            "name": "Vulcan Forge",
+            "symbol": "PYR",
+            "decimals": 18,
+            "assetId": "pyr",
+            "assetType": "pyr",
+            "protocolId": "vulcan-forged",
+            "isRebasing": false
+            },
+            "0x6E65Ae5572DF196FAe40Be2545Ebc2A9A24eAcE9": {
+            "name": "Shack Token",
+            "symbol": "SHACK",
+            "decimals": 18,
+            "assetId": "shack",
+            "assetType": "shack",
+            "protocolId": "radioshack",
+            "isRebasing": false
+            },
+            "0x255707B70BF90aa112006E1b07B9AeA6De021424": {
+            "name": "TETU",
+            "symbol": "TETU",
+            "decimals": 18,
+            "assetId": "tetu",
+            "assetType": "tetu",
+            "protocolId": "tetu",
+            "isRebasing": false
+            },
+            "0xe4Bf2864ebeC7B7fDf6Eeca9BaCAe7cDfDAffe78": {
+            "name": "DODO bird (POS)",
+            "symbol": "DODO",
+            "decimals": 18,
+            "assetId": "dodo",
+            "assetType": "dodo",
+            "protocolId": "dodo",
+            "isRebasing": false
+            },
+            "0x82362Ec182Db3Cf7829014Bc61E9BE8a2E82868a": {
+            "name": "Meshswap Protocol",
+            "symbol": "MESH",
+            "decimals": 18,
+            "assetId": "mesh",
+            "assetType": "mesh",
+            "protocolId": "meshswap-protocol",
+            "isRebasing": false
+            },
+            "0x0169eC1f8f639B32Eec6D923e24C2A2ff45B9DD6": {
+            "name": "Algebra",
+            "symbol": "ALGB",
+            "decimals": 18,
+            "assetId": "algb",
+            "assetType": "algb",
+            "protocolId": "algebra-finance",
+            "isRebasing": false
+            },
+            "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
+            "name": "SAND",
+            "symbol": "SAND",
+            "decimals": 18,
+            "assetId": "sand",
+            "assetType": "sand",
+            "protocolId": "the-sandbox",
+            "isRebasing": false
+            },
+            "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6": {
+            "name": "Liquid Staking Matic (PoS)",
+            "symbol": "MaticX",
+            "decimals": 18,
+            "assetId": "maticx",
+            "assetType": "matic",
+            "protocolId": "stader",
+            "isRebasing": false
+            },
+            "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4": {
+            "name": "Staked MATIC (PoS)",
+            "symbol": "stMATIC",
+            "decimals": 18,
+            "assetId": "stmatic",
+            "assetType": "matic",
+            "protocolId": "lido",
+            "isRebasing": false
+            },
+            "0x2F800Db0fdb5223b3C3f354886d907A671414A7F": {
+            "name": "Toucan Protocol: Base Carbon Tonne",
+            "symbol": "BCT",
+            "decimals": 18,
+            "assetId": "bct",
+            "assetType": "bct",
+            "protocolId": "toucan-protocol",
+            "isRebasing": false
+            },
+            "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c": {
+            "name": "Jarvis Synthetic Euro",
+            "symbol": "jEUR",
+            "decimals": 18,
+            "assetId": "jeur",
+            "assetType": "euro",
+            "protocolId": "jarvis",
+            "isRebasing": false
+            },
+            "0x236eeC6359fb44CCe8f97E99387aa7F8cd5cdE1f": {
+            "name": "USD+",
+            "symbol": "USD+",
+            "decimals": 6,
+            "assetId": "usd-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0x4e36D8006416EA1d939A0EeaE73AFDAcA86BD376": {
+            "name": "Wrapped USD+",
+            "symbol": "wUSD+",
+            "decimals": 6,
+            "assetId": "w-usd-plus",
+            "assetType": "usd",
+            "protocolId": "overnight",
+            "isRebasing": false
+            },
+            "0x431CD3C9AC9Fc73644BF68bF5691f4B83F9E104f": {
+            "name": "Rainbow Token",
+            "symbol": "RBW",
+            "decimals": 18,
+            "assetId": "rbw",
+            "assetType": "rbw",
+            "protocolId": "crypto-unicorns",
+            "isRebasing": false
+            },
+            "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB": {
+            "name": "JPY Coin",
+            "symbol": "JPYC",
+            "decimals": 18,
+            "assetId": "jpyc",
+            "assetType": "yen",
+            "protocolId": "jpyc",
+            "isRebasing": false
+            },
+            "0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c": {
+            "name": "JPY Coin (PoS)",
+            "symbol": "JPYC (PoS)",
+            "decimals": 18,
+            "assetId": "jpyc",
+            "assetType": "yen",
+            "protocolId": "jpyc",
+            "isRebasing": false
+            },
+            "0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79": {
+            "name": "SportX (PoS)",
+            "symbol": "SX",
+            "decimals": 18,
+            "assetId": "sx",
+            "assetType": "sx",
+            "protocolId": "sx-network",
+            "isRebasing": false
+            },
+            "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b": {
+            "name": "Avalanche Token",
+            "symbol": "AVAX",
+            "decimals": 18,
+            "assetId": "avax",
+            "assetType": "avax",
+            "protocolId": "avalanche",
+            "isRebasing": false
+            },
+            "0x39aB6574c289c3Ae4d88500eEc792AB5B947A5Eb": {
+            "name": "Dystopia token",
+            "symbol": "DYST",
+            "decimals": 18,
+            "assetId": "dyst",
+            "assetType": "dyst",
+            "protocolId": "dystopia",
+            "isRebasing": false
+            },
+            "0x27F8D03b3a2196956ED754baDc28D73be8830A6e": {
+            "name": "Aave Matic Market DAI",
+            "symbol": "amDAI",
+            "decimals": 18,
+            "assetId": "aave-dai",
+            "assetType": "usd",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F": {
+            "name": "Aave Matic Market USDC",
+            "symbol": "amUSDC",
+            "decimals": 6,
+            "assetId": "aave-usdc",
+            "assetType": "usd",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x60D55F02A771d515e077c9C2403a1ef324885CeC": {
+            "name": "Aave Matic Market USDT",
+            "symbol": "amUSDT",
+            "decimals": 6,
+            "assetId": "aave-usdt",
+            "assetType": "usd",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x5c2ed810328349100A66B82b78a1791B101C9D61": {
+            "name": "Aave Matic Market WBTC",
+            "symbol": "amWBTC",
+            "decimals": 8,
+            "assetId": "aave-wbtc",
+            "assetType": "btc",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390": {
+            "name": "Aave Matic Market WETH",
+            "symbol": "amWETH",
+            "decimals": 18,
+            "assetId": "aave-weth",
+            "assetType": "eth",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4": {
+            "name": "Aave Matic Market WMATIC",
+            "symbol": "amWMATIC",
+            "decimals": 18,
+            "assetId": "aave-wmatic",
+            "assetType": "matic",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360": {
+            "name": "Aave Matic Market AAVE",
+            "symbol": "amAAVE",
+            "decimals": 18,
+            "assetId": "aave-aave",
+            "assetType": "aave",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x080b5BF8f360F624628E0fb961F4e67c9e3c7CF1": {
+            "name": "Aave Matic Market GHST",
+            "symbol": "amGHST",
+            "decimals": 18,
+            "assetId": "aave-ghst",
+            "assetType": "ghst",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0xc4195D4060DaEac44058Ed668AA5EfEc50D77ff6": {
+            "name": "Aave Matic Market BAL",
+            "symbol": "amBAL",
+            "decimals": 18,
+            "assetId": "aave-bal",
+            "assetType": "bal",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x81fB82aAcB4aBE262fc57F06fD4c1d2De347D7B1": {
+            "name": "Aave Matic Market DPI",
+            "symbol": "amDPI",
+            "decimals": 18,
+            "assetId": "aave-dpi",
+            "assetType": "dpi",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x3Df8f92b7E798820ddcCA2EBEA7BAbda2c90c4aD": {
+            "name": "Aave Matic Market CRV",
+            "symbol": "amCRV",
+            "decimals": 18,
+            "assetId": "aave-crv",
+            "assetType": "crv",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x21eC9431B5B55c5339Eb1AE7582763087F98FAc2": {
+            "name": "Aave Matic Market SUSHI",
+            "symbol": "amSUSHI",
+            "decimals": 18,
+            "assetId": "aave-sushi",
+            "assetType": "sushi",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x0Ca2e42e8c21954af73Bc9af1213E4e81D6a669A": {
+            "name": "Aave Matic Market LINK",
+            "symbol": "amLINK",
+            "decimals": 18,
+            "assetId": "aave-link",
+            "assetType": "link",
+            "protocolId": "aave-v2",
+            "isRebasing": true
+            },
+            "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE": {
+            "name": "Aave Polygon DAI",
+            "symbol": "aPolDAI",
+            "decimals": 18,
+            "assetId": "aave-dai",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530": {
+            "name": "Aave Polygon LINK",
+            "symbol": "aPolLINK",
+            "decimals": 18,
+            "assetId": "aave-link",
+            "assetType": "link",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x625E7708f30cA75bfd92586e17077590C60eb4cD": {
+            "name": "Aave Polygon USDC",
+            "symbol": "aPolUSDC",
+            "decimals": 6,
+            "assetId": "aave-usdc",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x078f358208685046a11C85e8ad32895DED33A249": {
+            "name": "Aave Polygon WBTC",
+            "symbol": "aPolWBTC",
+            "decimals": 8,
+            "assetId": "aave-wbtc",
+            "assetType": "btc",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8": {
+            "name": "Aave Polygon WETH",
+            "symbol": "aPolWETH",
+            "decimals": 18,
+            "assetId": "aave-weth",
+            "assetType": "eth",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x6ab707Aca953eDAeFBc4fD23bA73294241490620": {
+            "name": "Aave Polygon USDT",
+            "symbol": "aPolUSDT",
+            "decimals": 6,
+            "assetId": "aave-usdt",
+            "assetType": "usd",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375": {
+            "name": "Aave Polygon AAVE",
+            "symbol": "aPolAAVE",
+            "decimals": 18,
+            "assetId": "aave-aave",
+            "assetType": "aave",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97": {
+            "name": "Aave Polygon WMATIC",
+            "symbol": "aPolWMATIC",
+            "decimals": 18,
+            "assetId": "aave-wmatic",
+            "assetType": "matic",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf": {
+            "name": "Aave Polygon CRV",
+            "symbol": "aPolCRV",
+            "decimals": 18,
+            "assetId": "aave-crv",
+            "assetType": "crv",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA": {
+            "name": "Aave Polygon SUSHI",
+            "symbol": "aPolSUSHI",
+            "decimals": 18,
+            "assetId": "aave-sushi",
+            "assetType": "sushi",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x8Eb270e296023E9D92081fdF967dDd7878724424": {
+            "name": "Aave Polygon GHST",
+            "symbol": "aPolGHST",
+            "decimals": 18,
+            "assetId": "aave-ghst",
+            "assetType": "ghst",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692": {
+            "name": "Aave Polygon BAL",
+            "symbol": "aPolBAL",
+            "decimals": 18,
+            "assetId": "aave-bal",
+            "assetType": "bal",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x724dc807b04555b71ed48a6896b6F41593b8C637": {
+            "name": "Aave Polygon DPI",
+            "symbol": "aPolDPI",
+            "decimals": 18,
+            "assetId": "aave-dpi",
+            "assetType": "dpi",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5": {
+            "name": "Aave Polygon EURS",
+            "symbol": "aPolEURS",
+            "decimals": 2,
+            "assetId": "aave-eurs",
+            "assetType": "euro",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x6533afac2E7BCCB20dca161449A13A32D391fb00": {
+            "name": "Aave Polygon JEUR",
+            "symbol": "aPolJEUR",
+            "decimals": 18,
+            "assetId": "aave-jeur",
+            "assetType": "euro",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x8437d7C167dFB82ED4Cb79CD44B7a32A1dd95c77": {
+            "name": "Aave Polygon AGEUR",
+            "symbol": "aPolAGEUR",
+            "decimals": 18,
+            "assetId": "aave-ageur",
+            "assetType": "euro",
+            "protocolId": "aave-v3",
+            "isRebasing": true
+            },
+            "0x6f7C932e7684666C9fd1d44527765433e01fF61d": {
+            "name": "Maker",
+            "symbol": "MKR",
+            "decimals": 18,
+            "assetId": "mkr",
+            "assetType": "mkr",
+            "protocolId": "maker-dao",
+            "isRebasing": false
+            },
+            "0xAa9654BECca45B5BDFA5ac646c939C62b527D394": {
+            "name": "DinoSwap (PoS)",
+            "symbol": "DINO",
+            "decimals": 18,
+            "assetId": "dino",
+            "assetType": "dino",
+            "protocolId": "dinoswap",
+            "isRebasing": false
+            },
+            "0x980111ae1B84E50222C8843e3A7a038F36Fecd2b": {
+            "name": "StackOS",
+            "symbol": "STACK",
+            "decimals": 18,
+            "assetId": "stack",
+            "assetType": "stack",
+            "protocolId": "stackos",
+            "isRebasing": false
+            },
+            "0x5d47bAbA0d66083C52009271faF3F50DCc01023C": {
+            "name": "ApeSwapFinance Banana",
+            "symbol": "BANANA",
+            "decimals": 18,
+            "assetId": "banana",
+            "assetType": "banana",
+            "protocolId": "apeswap-finance",
+            "isRebasing": false
+            },
+            "0x8b1f836491903743fE51ACd13f2CC8Ab95b270f6": {
+            "name": "ACY (PoS)",
+            "symbol": "ACY",
+            "decimals": 18,
+            "assetId": "acy",
+            "assetType": "acy",
+            "protocolId": "acy-finance",
+            "isRebasing": false
+            },
+            "0x22a31bD4cB694433B6de19e0aCC2899E553e9481": {
+            "name": "Mad Meerkat Finance",
+            "symbol": "MMF",
+            "decimals": 18,
+            "assetId": "mmf",
+            "assetType": "mmf",
+            "protocolId": "mmfinance",
+            "isRebasing": false
+            },
+            "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE": {
+            "name": "PlanetIX",
+            "symbol": "IXT",
+            "decimals": 18,
+            "assetId": "ixt",
+            "assetType": "ixt",
+            "protocolId": "planetix",
+            "isRebasing": false
+            },
+            "0xE5417Af564e4bFDA1c483642db72007871397896": {
+            "name": "Gains Network",
+            "symbol": "GNS",
+            "decimals": 18,
+            "assetId": "gns",
+            "assetType": "gns",
+            "protocolId": "gains-network",
+            "isRebasing": false
+            },
+            "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4": {
+            "name": "EURA",
+            "symbol": "EURA",
+            "decimals": 18,
+            "assetId": "eura",
+            "assetType": "euro",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x004626A008B1aCdC4c74ab51644093b155e59A23": {
+            "name": "Staked EURA",
+            "symbol": "stEUR",
+            "decimals": 18,
+            "assetId": "steur",
+            "assetType": "euro",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x0000206329b97DB379d5E1Bf586BbDB969C63274": {
+            "name": "USDA",
+            "symbol": "USDA",
+            "decimals": 18,
+            "assetId": "usda",
+            "assetType": "usd",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776": {
+            "name": "Staked USDA",
+            "symbol": "stUSD",
+            "decimals": 18,
+            "assetId": "stusd",
+            "assetType": "usd",
+            "protocolId": "angle-protocol",
+            "isRebasing": false
+            },
+            "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99": {
+            "name": "STASIS EURS Token (PoS)",
+            "symbol": "EURS",
+            "decimals": 2,
+            "assetId": "eurs",
+            "assetType": "euro",
+            "protocolId": "stasis",
+            "isRebasing": false
+            },
+            "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762": {
+            "name": "Request",
+            "symbol": "REQ",
+            "decimals": 18,
+            "assetId": "req",
+            "assetType": "req",
+            "protocolId": "request-network",
+            "isRebasing": false
+            },
+            "0x34d4ab47Bee066F361fA52d792e69AC7bD05ee23": {
+            "name": "RaiderAurum",
+            "symbol": "AURUM",
+            "decimals": 18,
+            "assetId": "aurum",
+            "assetType": "aurum",
+            "protocolId": "cryptoraiders",
+            "isRebasing": false
+            },
+            "0xE2Aa7db6dA1dAE97C5f5C6914d285fBfCC32A128": {
+            "name": "PAR Stablecoin",
+            "symbol": "PAR",
+            "decimals": 18,
+            "assetId": "par",
+            "assetType": "euro",
+            "protocolId": "mimo",
+            "isRebasing": false
+            },
+            "0xef938b6da8576a896f6E0321ef80996F4890f9c4": {
+            "name": "Decentral Games (PoS)",
+            "symbol": "DG",
+            "decimals": 18,
+            "assetId": "dg",
+            "assetType": "dg",
+            "protocolId": "decentral-games",
+            "isRebasing": false
+            },
+            "0x229b1b6C23ff8953D663C4cBB519717e323a0a84": {
+            "name": "BLOK",
+            "symbol": "BLOK",
+            "decimals": 18,
+            "assetId": "blok",
+            "assetType": "blok",
+            "protocolId": "bloktopia",
+            "isRebasing": false
+            },
+            "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5": {
+            "name": "Jarvis Reward Token (PoS)",
+            "symbol": "JRT",
+            "decimals": 18,
+            "assetId": "jrt",
+            "assetType": "jrt",
+            "protocolId": "jarvis",
+            "isRebasing": false
+            },
+            "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5": {
+            "name": "ChainGuardians Governance Token (PoS)",
+            "symbol": "CGG",
+            "decimals": 18,
+            "assetId": "cgg",
+            "assetType": "cgg",
+            "protocolId": "chain-guardians",
+            "isRebasing": false
+            },
+            "0xf50D05A1402d0adAfA880D36050736f9f6ee7dee": {
+            "name": "Instadapp (PoS)",
+            "symbol": "INST",
+            "decimals": 18,
+            "assetId": "inst",
+            "assetType": "inst",
+            "protocolId": "instadapp",
+            "isRebasing": false
+            },
+            "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE": {
+            "name": "Elk",
+            "symbol": "ELK",
+            "decimals": 18,
+            "assetId": "elk",
+            "assetType": "elk",
+            "protocolId": "elk-finance",
+            "isRebasing": false
+            },
+            "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C": {
+            "name": "Elk (Old)",
+            "symbol": "oELK",
+            "decimals": 18,
+            "assetId": "oelk",
+            "assetType": "oelk",
+            "protocolId": "elk-finance",
+            "isRebasing": false
+            },
+            "0xE1C8f3d529BEa8E3fA1FAC5B416335a2f998EE1C": {
+            "name": "Elk (Legacy)",
+            "symbol": "lELK",
+            "decimals": 18,
+            "assetId": "lelk",
+            "assetType": "lelk",
+            "protocolId": "elk-finance",
+            "isRebasing": false
+            },
+            "0xB5C064F955D8e7F38fE0460C556a72987494eE17": {
+            "name": "Quickswap",
+            "symbol": "QUICK",
+            "decimals": 18,
+            "assetId": "quick",
+            "assetType": "quick",
+            "protocolId": "quickswap",
+            "isRebasing": false
+            },
+            "0x831753DD7087CaC61aB5644b308642cc1c33Dc13": {
+            "name": "Quickswap (OLD)",
+            "symbol": "QUICK (OLD)",
+            "decimals": 18,
+            "assetId": "quick-old",
+            "assetType": "quick-old",
+            "protocolId": "quickswap",
+            "isRebasing": false
+            },
+            "0x00e5646f60AC6Fb446f621d146B6E1886f002905": {
+            "name": "Rai Reflex Index (PoS)",
+            "symbol": "RAI",
+            "decimals": 18,
+            "assetId": "rai",
+            "assetType": "rai",
+            "protocolId": "reflexer",
+            "isRebasing": false
+            },
+            "0xaAa5B9e6c589642f98a1cDA99B9D024B8407285A": {
+            "name": "IRON Titanium Token",
+            "symbol": "TITAN",
+            "decimals": 18,
+            "assetId": "titan",
+            "assetType": "titan",
+            "protocolId": "iron-finance",
+            "isRebasing": false
+            },
+            "0x709A4B6217584188DDb93c82f5d716D969accE1C": {
+            "name": "Hanu Yokia (PoS)",
+            "symbol": "HANU",
+            "decimals": 12,
+            "assetId": "hanu",
+            "assetType": "hanu",
+            "protocolId": "hanu-yokia",
+            "isRebasing": false
+            },
+            "0xD1e6354fb05bF72A8909266203dAb80947dcEccF": {
+            "name": "Cryption Network Token",
+            "symbol": "CNT",
+            "decimals": 18,
+            "assetId": "cnt",
+            "assetType": "cnt",
+            "protocolId": "cryption-network",
+            "isRebasing": false
+            },
+            "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369": {
+            "name": "DefiPulse Index (PoS)",
+            "symbol": "DPI",
+            "decimals": 18,
+            "assetId": "dpi",
+            "assetType": "dpi",
+            "protocolId": "index-coop",
+            "isRebasing": false
+            },
+            "0xb5106A3277718eCaD2F20aB6b86Ce0Fee7A21F09": {
+            "name": "CafeSwap Token",
+            "symbol": "pBREW",
+            "decimals": 18,
+            "assetId": "pbrew",
+            "assetType": "pbrew",
+            "protocolId": "cafeswap",
+            "isRebasing": false
+            },
+            "0xc82B9659A6d18A1a93f537731D2cA330181670Ae": {
+            "name": "BambooDeFi",
+            "symbol": "BAMBOO",
+            "decimals": 18,
+            "assetId": "bamboo",
+            "assetType": "bamboo",
+            "protocolId": "bamboo-defi",
+            "isRebasing": false
+            },
+            "0xF84BD51eab957c2e7B7D646A3427C5A50848281D": {
+            "name": "AGA Rewards (PoS)",
+            "symbol": "AGAr",
+            "decimals": 8,
+            "assetId": "agar",
+            "assetType": "agar",
+            "protocolId": "aga",
+            "isRebasing": false
+            },
+            "0x033d942A6b495C4071083f4CDe1f17e986FE856c": {
+            "name": "AGA Token (PoS)",
+            "symbol": "AGA",
+            "decimals": 4,
+            "assetId": "aga",
+            "assetType": "aga",
+            "protocolId": "aga",
+            "isRebasing": false
+            },
+            "0x669ddc70273084Ea30e6cd4f28CA6e2C70735065": {
+            "name": "AGA Carbon Credit (PoS)",
+            "symbol": "AGAc",
+            "decimals": 18,
+            "assetId": "agac",
+            "assetType": "agac",
+            "protocolId": "aga",
+            "isRebasing": false
+            },
+            "0x44A6e0BE76e1D9620A7F76588e4509fE4fa8E8C8": {
+            "name": "Aavegotchi FOMO",
+            "symbol": "FOMO",
+            "decimals": 18,
+            "assetId": "fomo",
+            "assetType": "fomo",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0x3801C3B3B5c98F88a9c9005966AA96aa440B9Afc": {
+            "name": "GAX Liquidity Token Reward",
+            "symbol": "GLTR",
+            "decimals": 18,
+            "assetId": "gltr",
+            "assetType": "gltr",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0x6a3E7C3c6EF65Ee26975b12293cA1AAD7e1dAeD2": {
+            "name": "Aavegotchi ALPHA",
+            "symbol": "ALPHA",
+            "decimals": 18,
+            "assetId": "alpha",
+            "assetType": "alpha",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0x42E5E06EF5b90Fe15F853F59299Fc96259209c5C": {
+            "name": "Aavegotchi KEK",
+            "symbol": "KEK",
+            "decimals": 18,
+            "assetId": "kek",
+            "assetType": "kek",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0x403E967b044d4Be25170310157cB1A4Bf10bdD0f": {
+            "name": "Aavegotchi FUD",
+            "symbol": "FUD",
+            "decimals": 18,
+            "assetId": "fud",
+            "assetType": "fud",
+            "protocolId": "aave",
+            "isRebasing": false
+            },
+            "0xfe712251173A2cd5F5bE2B46Bb528328EA3565E1": {
+            "name": "Metaverse Index",
+            "symbol": "MVI",
+            "decimals": 18,
+            "assetId": "mvi",
+            "assetType": "mvi",
+            "protocolId": "index-coop",
+            "isRebasing": false
+            },
+            "0xDfCe1e99A31C4597a3f8A8945cBfa9037655e335": {
+            "name": "Astrafer",
+            "symbol": "ASTRAFER",
+            "decimals": 18,
+            "assetId": "astrafer",
+            "assetType": "astrafer",
+            "protocolId": "astrafer",
+            "isRebasing": false
+            },
+            "0xBF9f916bBda29A7F990F5F55c7607D94D7C3A60b": {
+            "name": "DEFY (PoS)",
+            "symbol": "DEFY",
+            "decimals": 18,
+            "assetId": "defy",
+            "assetType": "defy",
+            "protocolId": "defy",
+            "isRebasing": false
+            },
+            "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603": {
+            "name": "Wootrade Network (PoS)",
+            "symbol": "WOO",
+            "decimals": 18,
+            "assetId": "woo",
+            "assetType": "woo",
+            "protocolId": "woo",
+            "isRebasing": false
+            },
+            "0x2bC07124D8dAc638E290f401046Ad584546BC47b": {
+            "name": "TOWER",
+            "symbol": "TOWER",
+            "decimals": 18,
+            "assetId": "tower",
+            "assetType": "tower",
+            "protocolId": "crazy-defense-heroes",
+            "isRebasing": false
+            },
+            "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590": {
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "assetId": "stg",
+            "assetType": "stg",
+            "protocolId": "stargate",
+            "isRebasing": false
+            },
+            "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756": {
+            "name": "Lido DAO Token (PoS)",
+            "symbol": "LDO",
+            "decimals": 18,
+            "assetId": "ldo",
+            "assetType": "ldo",
+            "protocolId": "lido",
+            "isRebasing": false
+            },
+            "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
+            "name": "BOB",
+            "symbol": "BOB",
+            "decimals": 18,
+            "assetId": "bob",
+            "assetType": "usd",
+            "protocolId": "zkbob",
+            "isRebasing": false
+            },
+            "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39": {
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "assetId": "busd",
+            "assetType": "usd",
+            "protocolId": "binance",
+            "isRebasing": false
+            },
+            "0xd0258a3fD00f38aa8090dfee343f10A9D4d30D3F": {
+            "name": "VOXEL Token",
+            "symbol": "VOXEL",
+            "decimals": 18,
+            "assetId": "voxel",
+            "assetType": "voxel",
+            "protocolId": "voxies",
+            "isRebasing": false
+            },
+            "0x2760E46d9BB43dafCbEcaad1F64b93207f9f0eD7": {
+            "name": "Metavault Trade",
+            "symbol": "MVX",
+            "decimals": 18,
+            "assetId": "mvx",
+            "assetType": "mvx",
+            "protocolId": "metavault-trade",
+            "isRebasing": false
+            },
+            "0x4e78011Ce80ee02d2c3e649Fb657E45898257815": {
+            "name": "Klima DAO",
+            "symbol": "KLIMA",
+            "decimals": 9,
+            "assetId": "klima",
+            "assetType": "klima",
+            "protocolId": "klima-dao",
+            "isRebasing": false
+            },
+            "0x361A5a4993493cE00f61C32d4EcCA5512b82CE90": {
+            "name": "Stake DAO Token (PoS)",
+            "symbol": "SDT",
+            "decimals": 18,
+            "assetId": "sdt",
+            "assetType": "sdt",
+            "protocolId": "stake-dao",
+            "isRebasing": false
+            },
+            "0x67eB41A14C0fe5CD701FC9d5A3D6597A72F641a6": {
+            "name": "Giddy Token",
+            "symbol": "GDDY",
+            "decimals": 18,
+            "assetId": "gddy",
+            "assetType": "gddy",
+            "protocolId": "giddy",
+            "isRebasing": false
+            },
+            "0x9246a5F10A79a5a939b0C2a75A3AD196aAfDB43b": {
+            "name": "BetSwirl Token",
+            "symbol": "BETS",
+            "decimals": 18,
+            "assetId": "bets",
+            "assetType": "bets",
+            "protocolId": "betswirl",
+            "isRebasing": false
+            },
+            "0x7BDF330f423Ea880FF95fC41A280fD5eCFD3D09f": {
+            "name": "Euro Tether (PoS)",
+            "symbol": "EURT",
+            "decimals": 6,
+            "assetId": "eurt",
+            "assetType": "euro",
+            "protocolId": "tether",
+            "isRebasing": false
+            },
+            "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD": {
+            "name": "Wrapped liquid staked Ether 2.0",
+            "symbol": "wstETH",
+            "decimals": 18,
+            "assetId": "wsteth",
+            "assetType": "eth",
+            "protocolId": "lido",
+            "isRebasing": false
+            },
+            "0xbD1463F02f61676d53fd183C2B19282BFF93D099": {
+            "name": "Jarvis Synthetic Swiss Franc",
+            "symbol": "jCHF",
+            "decimals": 18,
+            "assetId": "jchf",
+            "assetType": "chf",
+            "protocolId": "jarvis",
+            "isRebasing": false
+            },
+            "0xB7b31a6BC18e48888545CE79e83E06003bE70930": {
+            "name": "ApeCoin (PoS)",
+            "symbol": "APE",
+            "decimals": 18,
+            "assetId": "ape",
+            "assetType": "ape",
+            "protocolId": "apecoin-dao",
+            "isRebasing": false
+            },
+            "0x958d208Cdf087843e9AD98d23823d32E17d723A1": {
+            "name": "Dragon QUICK",
+            "symbol": "dQUICK",
+            "decimals": 18,
+            "assetId": "dquick",
+            "assetType": "dquick",
+            "protocolId": "quickswap",
+            "isRebasing": false
+            },
+            "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C": {
+            "name": "HEX (PoS)",
+            "symbol": "HEX",
+            "decimals": 8,
+            "assetId": "hex",
+            "assetType": "hex",
+            "protocolId": "hex",
+            "isRebasing": false
+            },
+            "0xAF0D9D65fC54de245cdA37af3d18cbEc860A4D4b": {
+            "name": "Wrapped USDR (OLD)",
+            "symbol": "wUSDR (OLD)",
+            "decimals": 9,
+            "assetId": "wusdr",
+            "assetType": "usd",
+            "protocolId": "tangible",
+            "isRebasing": false
+            },
+            "0xb5DFABd7fF7F83BAB83995E72A52B97ABb7bcf63": {
+            "name": "Real USD (OLD)",
+            "symbol": "USDR (OLD)",
+            "decimals": 9,
+            "assetId": "usdr",
+            "assetType": "usd",
+            "protocolId": "tangible",
+            "isRebasing": false
+            },
+            "0x00e8c0E92eB3Ad88189E7125Ec8825eDc03Ab265": {
+            "name": "Wrapped USDR",
+            "symbol": "wUSDR",
+            "decimals": 9,
+            "assetId": "wusdr",
+            "assetType": "usd",
+            "protocolId": "tangible",
+            "isRebasing": false
+            },
+            "0x40379a439D4F6795B6fc9aa5687dB461677A2dBa": {
+            "name": "Real USD",
+            "symbol": "USDR",
+            "decimals": 9,
+            "assetId": "usdr",
+            "assetType": "usd",
+            "protocolId": "tangible",
+            "isRebasing": false
+            },
+            "0x7238390d5f6F64e67c3211C343A410E2A3DEc142": {
+            "name": "Pearl",
+            "symbol": "PEARL",
+            "decimals": 18,
+            "assetId": "pearl",
+            "assetType": "pearl",
+            "protocolId": "pearl",
+            "isRebasing": false
+            },
+            "0x306ee01a6bA3b4a8e993fA2C1ADC7ea24462000c": {
+            "name": "NEOPIN Token",
+            "symbol": "NPT",
+            "decimals": 18,
+            "assetId": "npt",
+            "assetType": "npt",
+            "protocolId": "neopin",
+            "isRebasing": false
+            },
+            "0x49e6A20f1BBdfEeC2a8222E052000BbB14EE6007": {
+            "name": "Tangible",
+            "symbol": "TNGBL",
+            "decimals": 18,
+            "assetId": "tngbl",
+            "assetType": "tngbl",
+            "protocolId": "tangible",
+            "isRebasing": false
+            },
+            "0x750e4C4984a9e0f12978eA6742Bc1c5D248f40ed": {
+            "name": "Axelar Wrapped USDC",
+            "symbol": "axlUSDC",
+            "decimals": 6,
+            "assetId": "axlusdc",
+            "assetType": "usd",
+            "protocolId": "axelar",
+            "isRebasing": false
+            },
+            "0xBFA35599c7AEbb0dAcE9b5aa3ca5f2a79624D8Eb": {
+            "name": "RETRO",
+            "symbol": "RETRO",
+            "decimals": 18,
+            "assetId": "retro",
+            "assetType": "retro",
+            "protocolId": "retro-finance",
+            "isRebasing": false
+            },
+            "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b": {
+            "name": "Polygon tBTC v2",
+            "symbol": "tBTC",
+            "decimals": 18,
+            "assetId": "tbtc",
+            "assetType": "btc",
+            "protocolId": "threshold",
+            "isRebasing": false
+            },
+            "0x6899fAcE15c14348E1759371049ab64A3a06bFA6": {
+            "name": "SmarDex Token",
+            "symbol": "SDEX",
+            "decimals": 18,
+            "assetId": "sdex",
+            "assetType": "sdex",
+            "protocolId": "smardex",
+            "isRebasing": false
+            },
+            "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C": {
+            "name": "Mountain Protocol USD",
+            "symbol": "USDM",
+            "decimals": 18,
+            "assetId": "usdm",
+            "assetType": "usd",
+            "protocolId": "mountain-protocol",
+            "isRebasing": true
+            },
+            "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812": {
+            "name": "Wrapped Mountain Protocol USD",
+            "symbol": "wUSDM",
+            "decimals": 18,
+            "assetId": "wusdm",
+            "assetType": "usd",
+            "protocolId": "mountain-protocol",
+            "isRebasing": false
+            },
+            "0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff": {
+            "name": "Orbs (PoS)",
+            "symbol": "ORBS",
+            "decimals": 18,
+            "assetId": "orbs",
+            "assetType": "orbs",
+            "protocolId": "orbs",
+            "isRebasing": false
+            },
+            "0x57999936fC9A9EC0751a8D146CcE11901Be8beD0": {
+            "name": "Virtuswap Token (FXERC20)",
+            "symbol": "fxVRSW",
+            "decimals": 18,
+            "assetId": "fxvrsw",
+            "assetType": "fxvrsw",
+            "protocolId": "virtuswap",
+            "isRebasing": false
+            },
+            "0x04565fE9AA3ae571ada8e1bEBF8282C4e5247b2A": {
+            "name": "Wild Goat Coin",
+            "symbol": "WGC",
+            "decimals": 6,
+            "assetId": "wgc",
+            "assetType": "wgc",
+            "protocolId": "wild-goat-coin",
+            "isRebasing": false
+            },
+            "0xDC3326e71D45186F113a2F448984CA0e8D201995": {
+            "name": "XSGD",
+            "symbol": "XSGD",
+            "decimals": 6,
+            "assetId": "xsgd",
+            "assetType": "sgd",
+            "protocolId": "straitsx",
+            "isRebasing": false
+            },
+            "0x110B25D2B21eE73eB401F3aE7833f7072912A0Bf": {
+            "name": "LIF3",
+            "symbol": "LIF3",
+            "decimals": 18,
+            "assetId": "lif3",
+            "assetType": "lif3",
+            "protocolId": "lif3",
+            "isRebasing": false
+            },
+            "0x5eAB32Fe1D104cE0C5436feDC3433B646096e47C": {
+            "name": "LSHARE",
+            "symbol": "LSHARE",
+            "decimals": 18,
+            "assetId": "lshare",
+            "assetType": "lshare",
+            "protocolId": "lif3",
+            "isRebasing": false
+            }
+        }
+    }
+  
+}
