@@ -23,6 +23,14 @@ const config: HardhatUserConfig = {
       "chainId": 56,
       accounts: deployer_pk
     },
+  },
+
+  etherscan: {
+    apiKey: {
+      arbitrumOne: "Y6JFVD1JI1SR46SKMJNM7PI5NQ79F9UK7N",
+      polygon: "JPI9X489SP9V3IHBJX4KI9SDMQ53643JPH",
+      bsc: "PPFJ34FMR3BPHXMATQ3V63ZQ2VI1ARYARH"
+    },
   }
 };
 

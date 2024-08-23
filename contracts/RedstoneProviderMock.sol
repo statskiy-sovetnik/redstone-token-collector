@@ -18,4 +18,24 @@ contract RedstoneProviderMock is MainDemoConsumerBase {
         require(msg.sender == address(this), "Unauthorized call");
         return getOracleNumericValueFromTxMsg(feedId);
     }
+
+    function getPriceFromManualPayload(
+        bytes32 feedId,
+        bytes calldata data
+    ) external view returns(uint256) {
+        require(msg.sender == address(this), "Unauthorized call");
+        return getOracleNumericValueFromTxMsg(feedId);
+    }
+
+    function parsePriceWithManualPayload(
+        bytes32 feedId,
+        bytes calldata data
+    ) external view returns(uint256) {
+        try this.getPriceFromManualPayload(feedId, data) returns(uint256 value) {
+            return value;
+        }
+        catch {
+            return 0;
+        }
+    }
 }

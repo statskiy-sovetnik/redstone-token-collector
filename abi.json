@@ -1,267 +1,315 @@
 {
     "abi": [
-    {
-      "inputs": [],
-      "name": "CalldataMustHaveValidPayload",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "CalldataOverOrUnderFlow",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "CanNotPickMedianOfEmptyArray",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "DataPackageTimestampMustNotBeZero",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "DataPackageTimestampsMustBeEqual",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "DataTimestampCannotBeZero",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "EachSignerMustProvideTheSameValue",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "EmptyCalldataPointersArr",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "GetDataServiceIdNotImplemented",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "IncorrectUnsignedMetadataSize",
-      "type": "error"
-    },
-    {
-      "inputs": [
         {
-          "internalType": "uint256",
-          "name": "receivedSignersCount",
-          "type": "uint256"
+          "inputs": [],
+          "name": "CalldataMustHaveValidPayload",
+          "type": "error"
         },
         {
-          "internalType": "uint256",
-          "name": "requiredSignersCount",
-          "type": "uint256"
-        }
-      ],
-      "name": "InsufficientNumberOfUniqueSigners",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "InvalidCalldataPointer",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "RedstonePayloadMustHaveAtLeastOneDataPackage",
-      "type": "error"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "receivedSigner",
-          "type": "address"
-        }
-      ],
-      "name": "SignerNotAuthorised",
-      "type": "error"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "receivedTimestampSeconds",
-          "type": "uint256"
+          "inputs": [],
+          "name": "CalldataOverOrUnderFlow",
+          "type": "error"
         },
         {
-          "internalType": "uint256",
-          "name": "blockTimestamp",
-          "type": "uint256"
-        }
-      ],
-      "name": "TimestampFromTooLongFuture",
-      "type": "error"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "receivedTimestampSeconds",
-          "type": "uint256"
+          "inputs": [],
+          "name": "CanNotPickMedianOfEmptyArray",
+          "type": "error"
         },
         {
-          "internalType": "uint256",
-          "name": "blockTimestamp",
-          "type": "uint256"
-        }
-      ],
-      "name": "TimestampIsTooOld",
-      "type": "error"
-    },
-    {
-      "inputs": [],
-      "name": "TimestampsMustBeEqual",
-      "type": "error"
-    },
-    {
-      "inputs": [
+          "inputs": [],
+          "name": "DataPackageTimestampMustNotBeZero",
+          "type": "error"
+        },
         {
-          "internalType": "uint256",
-          "name": "valueByteSize",
-          "type": "uint256"
-        }
-      ],
-      "name": "TooLargeValueByteSize",
-      "type": "error"
-    },
-    {
-      "inputs": [
+          "inputs": [],
+          "name": "DataPackageTimestampsMustBeEqual",
+          "type": "error"
+        },
         {
-          "internalType": "uint256[]",
-          "name": "values",
-          "type": "uint256[]"
-        }
-      ],
-      "name": "aggregateValues",
-      "outputs": [
+          "inputs": [],
+          "name": "DataTimestampCannotBeZero",
+          "type": "error"
+        },
         {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "extractTimestampsAndAssertAllAreEqual",
-      "outputs": [
+          "inputs": [],
+          "name": "EachSignerMustProvideTheSameValue",
+          "type": "error"
+        },
         {
-          "internalType": "uint256",
-          "name": "extractedTimestamp",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "inputs": [
+          "inputs": [],
+          "name": "EmptyCalldataPointersArr",
+          "type": "error"
+        },
         {
-          "internalType": "address",
-          "name": "signerAddress",
-          "type": "address"
-        }
-      ],
-      "name": "getAuthorisedSignerIndex",
-      "outputs": [
+          "inputs": [],
+          "name": "GetDataServiceIdNotImplemented",
+          "type": "error"
+        },
         {
-          "internalType": "uint8",
-          "name": "",
-          "type": "uint8"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "getDataServiceId",
-      "outputs": [
+          "inputs": [],
+          "name": "IncorrectUnsignedMetadataSize",
+          "type": "error"
+        },
         {
-          "internalType": "string",
-          "name": "",
-          "type": "string"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "receivedSignersCount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "requiredSignersCount",
+              "type": "uint256"
+            }
+          ],
+          "name": "InsufficientNumberOfUniqueSigners",
+          "type": "error"
+        },
         {
-          "internalType": "bytes32",
-          "name": "feedId",
-          "type": "bytes32"
-        }
-      ],
-      "name": "getPrice",
-      "outputs": [
+          "inputs": [],
+          "name": "InvalidCalldataPointer",
+          "type": "error"
+        },
         {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "getUniqueSignersThreshold",
-      "outputs": [
+          "inputs": [],
+          "name": "RedstonePayloadMustHaveAtLeastOneDataPackage",
+          "type": "error"
+        },
         {
-          "internalType": "uint8",
-          "name": "",
-          "type": "uint8"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "receivedSigner",
+              "type": "address"
+            }
+          ],
+          "name": "SignerNotAuthorised",
+          "type": "error"
+        },
         {
-          "internalType": "bytes32",
-          "name": "feedId",
-          "type": "bytes32"
-        }
-      ],
-      "name": "parsePrice",
-      "outputs": [
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "receivedTimestampSeconds",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "blockTimestamp",
+              "type": "uint256"
+            }
+          ],
+          "name": "TimestampFromTooLongFuture",
+          "type": "error"
+        },
         {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "receivedTimestampSeconds",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "blockTimestamp",
+              "type": "uint256"
+            }
+          ],
+          "name": "TimestampIsTooOld",
+          "type": "error"
+        },
         {
-          "internalType": "uint256",
-          "name": "receivedTimestampMilliseconds",
-          "type": "uint256"
+          "inputs": [],
+          "name": "TimestampsMustBeEqual",
+          "type": "error"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "valueByteSize",
+              "type": "uint256"
+            }
+          ],
+          "name": "TooLargeValueByteSize",
+          "type": "error"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256[]",
+              "name": "values",
+              "type": "uint256[]"
+            }
+          ],
+          "name": "aggregateValues",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "extractTimestampsAndAssertAllAreEqual",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "extractedTimestamp",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "pure",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "signerAddress",
+              "type": "address"
+            }
+          ],
+          "name": "getAuthorisedSignerIndex",
+          "outputs": [
+            {
+              "internalType": "uint8",
+              "name": "",
+              "type": "uint8"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "getDataServiceId",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes32",
+              "name": "feedId",
+              "type": "bytes32"
+            }
+          ],
+          "name": "getPrice",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes32",
+              "name": "feedId",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes"
+            }
+          ],
+          "name": "getPriceFromManualPayload",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "getUniqueSignersThreshold",
+          "outputs": [
+            {
+              "internalType": "uint8",
+              "name": "",
+              "type": "uint8"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes32",
+              "name": "feedId",
+              "type": "bytes32"
+            }
+          ],
+          "name": "parsePrice",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes32",
+              "name": "feedId",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes"
+            }
+          ],
+          "name": "parsePriceWithManualPayload",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "receivedTimestampMilliseconds",
+              "type": "uint256"
+            }
+          ],
+          "name": "validateTimestamp",
+          "outputs": [],
+          "stateMutability": "view",
+          "type": "function"
         }
-      ],
-      "name": "validateTimestamp",
-      "outputs": [],
-      "stateMutability": "view",
-      "type": "function"
-    }
-  ]
+      ]
 }
