@@ -1,46 +1,52 @@
-// TODO create types for token configs
-// TODO get chain id
-// TODO iterate through compatible-tokens of this chain id
-  // TODO check if token exists in aspis-supported-tokens
-  // TODO write to array if doesn't
-  // TODO log that the token was added
-// TODO update the aspis-supported-tokens config file
+
 import { promises as fs } from "fs";
 import hre from "hardhat";
-import { AspisToken, Network, Token } from '../types';
+import { AspisFund, AspisToken, Network, Token } from '../types';
+import { isTokenInTheList } from './utils/is-token-in-the-list';
 
-const ASPIS_TOKENS_PATH = "aspis-supported-tokens.json";
+const ASPIS_SUPPORTED_FUNDS_LIST_PATH = "aspis-supported-funds-list.json";
+const ASPIS_SUPPORTED_TOKENS_LIST_PATH = "aspis-supported-tokens-list.json";
 const COMPATIBLE_TOKENS_PATH = "compatible-tokens.json";
 const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 
 /* 
-  Extends the supported Aspis tokens with "compatible tokens" (supported by redstone)
+  Extends the "aspis-supported-funds-list and aspis-supported-tokens-list"
+   with "compatible tokens" (supported by redstone)
  */
 
 async function main() {
-  const aspis_tokens_file = JSON.parse(await fs.readFile(ASPIS_TOKENS_PATH, { encoding: "utf8" }));
+  const aspis_funds_file = JSON.parse(await fs.readFile(ASPIS_SUPPORTED_FUNDS_LIST_PATH, { encoding: "utf8" }));
+  const aspis_tokens_file = JSON.parse(await fs.readFile(ASPIS_SUPPORTED_TOKENS_LIST_PATH, { encoding: "utf8" }));
   const compatible_tokens_file = JSON.parse(await fs.readFile(COMPATIBLE_TOKENS_PATH, { encoding: "utf8" }));
+
   const chainId: Network = hre.network.config.chainId!;
   let compatible_tokens: Token[] = compatible_tokens_file[chainId];
-  let aspis_supported_tokens: AspisToken[] = aspis_tokens_file[chainId].tokens;
+  let aspis_supported_funds: AspisFund[] = aspis_funds_file[chainId].tokens;
+  let aspis_supported_tokens: AspisToken[] = aspis_tokens_file[chainId];
 
   for (let i = 0; i < compatible_tokens.length; i++) {
     const token: Token = compatible_tokens[i];
 
-    if (isTokenInTheList(aspis_supported_tokens, token.symbol)) {
-      continue;
+    // Updating funds list
+    if (!isAspisFundInTheList(aspis_supported_funds, token.symbol)) {
+      aspis_supported_funds.push(convertToAspisFund(token));
+      console.log(`Funds: added ${token.symbol}`);
     }
-    else {
+    
+    // Updating tokens list
+    if (!isAspisTokenInTheList(aspis_supported_tokens, token.symbol)) {
       aspis_supported_tokens.push(convertToAspisToken(token));
-      console.log(`Added ${token.symbol} to aspis supported tokens`);
+      console.log(`Tokens: added ${token.symbol}`);
     }
   }
 
-  aspis_tokens_file[chainId].tokens = aspis_supported_tokens;
-  await fs.writeFile(ASPIS_TOKENS_PATH, JSON.stringify(aspis_tokens_file, null, 2));
+  aspis_funds_file[chainId].tokens = aspis_supported_funds;
+  aspis_tokens_file[chainId] = aspis_supported_tokens;
+  await fs.writeFile(ASPIS_SUPPORTED_FUNDS_LIST_PATH, JSON.stringify(aspis_funds_file, null, 2));
+  await fs.writeFile(ASPIS_SUPPORTED_TOKENS_LIST_PATH, JSON.stringify(aspis_tokens_file, null, 2));
 }
 
-function convertToAspisToken(t: Token): AspisToken {
+function convertToAspisFund(t: Token): AspisFund {
   return {
     baseToken: t.symbol,
     redstoneFeedId: t.symbol,
@@ -50,9 +56,26 @@ function convertToAspisToken(t: Token): AspisToken {
   }
 }
 
-function isTokenInTheList(list: Array<AspisToken>, symbol: string): boolean {
-  const res = list.find((_t: AspisToken) => {
+function convertToAspisToken(t: Token): AspisToken {
+  return {
+    symbol: t.symbol,
+    address: t.address,
+    decimals: t.decimals,
+    icon: undefined
+  }
+}
+
+function isAspisFundInTheList(list: Array<AspisFund>, symbol: string): boolean {
+  const res = list.find((_t: AspisFund) => {
     return _t.baseToken === symbol;
+  });
+
+  return res !== undefined;
+}
+
+function isAspisTokenInTheList(list: Array<AspisToken>, symbol: string): boolean {
+  const res = list.find((_t: AspisToken) => {
+    return _t.symbol === symbol;
   });
 
   return res !== undefined;

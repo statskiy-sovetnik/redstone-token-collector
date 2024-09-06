@@ -5,12 +5,19 @@ export type Token = {
   symbol: string,
   chainId: number,
 }
-export type AspisToken = {
+export type AspisFund = {
   baseToken: string,
   redstoneFeedId: string,
   tokenAddress: string,
   priceFeed: string,
   decimals: number
+}
+
+export type AspisToken = {
+  symbol: string,
+  address: string,
+  decimals: number,
+  icon?: string
 }
 
 export enum Network {
