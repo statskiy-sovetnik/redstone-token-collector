@@ -36,8 +36,8 @@ async function main() {
     }
   }
 
-  compatible_tokens_file[chainId].tokens = compatible_tokens;
-  await fs.writeFile(COMPATIBLE_TOKENS_PATH, JSON.stringify(compatible_tokens_file, null, 2));
+  aspis_tokens_file[chainId].tokens = aspis_supported_tokens;
+  await fs.writeFile(ASPIS_TOKENS_PATH, JSON.stringify(aspis_tokens_file, null, 2));
 }
 
 function convertToAspisToken(t: Token): AspisToken {
