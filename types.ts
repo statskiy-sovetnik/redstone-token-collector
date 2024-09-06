@@ -5,6 +5,13 @@ export type Token = {
   symbol: string,
   chainId: number,
 }
+export type AspisToken = {
+  baseToken: string,
+  redstoneFeedId: string,
+  tokenAddress: string,
+  priceFeed: string,
+  decimals: number
+}
 
 export enum Network {
   Arbitrum = 42161,
