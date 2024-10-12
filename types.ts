@@ -20,6 +20,21 @@ export type AspisToken = {
   icon?: string
 }
 
+export type RedstoneTokenConfig = {
+  timestampMilliseconds: number,
+  signature: string,
+  isSignatureValid: boolean,
+  dataPoints: Array<Object>,
+  dataServiceId: string,
+  dataFeedId: string,
+  dataPackageId: string,
+  signerAddress: string
+}
+
+export type RedstoneTokenCollection = {
+  [token_id: string]: RedstoneTokenConfig
+}
+
 export enum Network {
   Arbitrum = 42161,
   Bsc = 56,

@@ -1,10 +1,10 @@
 import { Network } from '../types';
 import { RedstoneDeployedAddresses, RPC } from './config';
 import hre, { ethers } from "hardhat";
-import abi from "../abi.json";
 import { getRedstonePrice } from './utils/get-redstone-price';
+import { getProviderAbi } from './utils/get-provider-abi';
 
-const symbol = "LDO";
+const symbol = "JOE";
 
 async function main() {
   const chainId: Network = hre.network.config.chainId!;
@@ -12,10 +12,10 @@ async function main() {
   
   // Get Redstone price provider contract
   const deployed_address = RedstoneDeployedAddresses[chainId];
-  //const RedstoneProvider = await ethers.getContractAt("RedstoneProviderMock", deployed_address);
-  const RedstoneProvider = new ethers.Contract(deployed_address, abi.abi, provider);
+  const abi = getProviderAbi(chainId);
+  const RedstoneProvider = new ethers.Contract(deployed_address, abi, provider);
 
-  const price = await getRedstonePrice(RedstoneProvider, symbol);
+  const price = await getRedstonePrice(chainId,RedstoneProvider, symbol);
   console.log("Price: ", price.toString());
 }
 

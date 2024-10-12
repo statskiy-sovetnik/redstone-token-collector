@@ -10,6 +10,7 @@ type FilteredTokenArrays = {
 }
 
 export async function filterTokenListWithRedstone(
+  chainId: number,
   tokens: Array<Token>,
   compatible_tokens: Array<Token>,
   unsupported_tokens: Array<Token>,
@@ -35,7 +36,7 @@ export async function filterTokenListWithRedstone(
 
     let price = 0n;
     try {
-      price = await getRedstonePrice(RedstoneProvider, symbol);
+      price = await getRedstonePrice(chainId, RedstoneProvider, symbol);
       console.log("Price: ", Number(price));
     }
     catch(err) {

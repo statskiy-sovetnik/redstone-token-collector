@@ -1,6 +1,6 @@
 import hre from "hardhat";
 
-const CONTRACT_ADDRESS = "0xE77CA2f7f238A8412d8a3F18996FF7431215503A";
+const CONTRACT_ADDRESS = "0xbD9fa0fFA7E824CbF9EA36c462aA2b5cCEEC6838";
 
 const main = async () => {
   /* 

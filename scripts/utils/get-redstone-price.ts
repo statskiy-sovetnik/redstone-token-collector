@@ -8,6 +8,7 @@ import { Network } from '../../types';
 
 
 export async function getRedstonePrice(
+  chainId: Network,
   RedstoneProvider: Contract, 
   symbol: string
 ): Promise<bigint> {
@@ -15,8 +16,11 @@ export async function getRedstonePrice(
   let price = 0n;
   const feedId = convertStringToBytes32(symbol);
 
+  const dataServiceId = chainId === Network.Arbitrum ?
+    "redstone-arbitrum-prod" :
+    "redstone-primary-prod";
   const redstonePayload = await (new DataServiceWrapper({
-    dataServiceId: "redstone-main-demo",
+    dataServiceId: dataServiceId,
     dataPackagesIds: [symbol]
   }).getRedstonePayloadForManualUsage(RedstoneProvider));
   

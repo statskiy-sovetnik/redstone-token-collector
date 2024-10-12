@@ -6,9 +6,9 @@ import hre from "hardhat";
 import { ethers } from "ethers";
 import { RedstoneDeployedAddresses, RPC } from './config';
 import { Network, OdosTokenMap, Token } from '../types';
-import abi from "../abi.json";
 import { filterTokenListWithRedstone } from './utils/filter-token-list-with-redstone';
 import { formatOdosTokens } from './utils/format-odos-tokens';
+import { getProviderAbi } from './utils/get-provider-abi';
 
 
 /* 
@@ -46,10 +46,11 @@ async function main() {
 
   // Get Redstone price provider contract
   const deployed_address = RedstoneDeployedAddresses[chainId];
-  //const RedstoneProvider = await ethers.getContractAt("RedstoneProviderMock", deployed_address);
-  const RedstoneProvider = new ethers.Contract(deployed_address, abi.abi, provider);
+  const abi = getProviderAbi(chainId);
+  const RedstoneProvider = new ethers.Contract(deployed_address, abi, provider);
 
   const res = await filterTokenListWithRedstone(
+    chainId,
     tokens,
     compatible_tokens,
     unsupported_tokens,

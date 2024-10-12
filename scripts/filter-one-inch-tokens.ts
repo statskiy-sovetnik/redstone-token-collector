@@ -6,8 +6,8 @@ import hre from "hardhat";
 import { ethers } from "ethers";
 import { RedstoneDeployedAddresses, RPC } from './config';
 import { Network } from '../types';
-import abi from "../abi.json";
 import { filterTokenListWithRedstone } from './utils/filter-token-list-with-redstone';
+import { getProviderAbi } from './utils/get-provider-abi';
 
 
 /* 
@@ -43,17 +43,17 @@ async function main() {
 
   // Get Redstone price provider contract
   const deployed_address = RedstoneDeployedAddresses[chainId];
-  //const RedstoneProvider = await ethers.getContractAt("RedstoneProviderMock", deployed_address);
-  const RedstoneProvider = new ethers.Contract(deployed_address, abi.abi, provider);
-
-  console.log(RedstoneProvider);
+  const abi = getProviderAbi(chainId);
+  const RedstoneProvider = new ethers.Contract(deployed_address, abi, provider);
 
   const res = await filterTokenListWithRedstone(
+    chainId,
     tokens, 
     compatible_tokens,
     unsupported_tokens,
     RedstoneProvider
   );
+
   compatible_tokens = res.compatible_tokens;
   unsupported_tokens = res.unsupported_tokens;
 

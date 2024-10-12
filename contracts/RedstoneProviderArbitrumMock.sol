@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import { PrimaryProdDataServiceConsumerBase } from "@redstone-finance/evm-connector/contracts/data-services/PrimaryProdDataServiceConsumerBase.sol";
+import { ArbitrumProdDataServiceConsumerBase } from "@redstone-finance/evm-connector/contracts/data-services/ArbitrumProdDataServiceConsumerBase.sol";
 
 
-contract RedstoneProviderMock is PrimaryProdDataServiceConsumerBase {
+contract RedstoneProviderArbitrumMock is ArbitrumProdDataServiceConsumerBase {
     function parsePrice(bytes32 feedId) external view returns (uint256) {
         try this.getPrice(feedId) returns(uint256 value) {
             return value;
